@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Estudiante\\Desktop\\ProyectoFinal\\ProyectoFinal.vbproj": {}
+    "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\ProyectoFinal.vbproj": {}
   },
   "projects": {
-    "C:\\Users\\Estudiante\\Desktop\\ProyectoFinal\\ProyectoFinal.vbproj": {
+    "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\ProyectoFinal.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Estudiante\\Desktop\\ProyectoFinal\\ProyectoFinal.vbproj",
+        "projectUniqueName": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\ProyectoFinal.vbproj",
         "projectName": "ProyectoFinal",
-        "projectPath": "C:\\Users\\Estudiante\\Desktop\\ProyectoFinal\\ProyectoFinal.vbproj",
+        "projectPath": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\ProyectoFinal.vbproj",
         "packagesPath": "C:\\Users\\Estudiante\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Estudiante\\Desktop\\ProyectoFinal\\obj\\",
+        "outputPath": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Estudiante\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -44,6 +44,12 @@
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[9.5.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
