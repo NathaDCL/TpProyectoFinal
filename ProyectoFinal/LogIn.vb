@@ -1,6 +1,6 @@
 ﻿Public Class LogIn
     Private Sub btnLLogin_Click(sender As Object, e As EventArgs) Handles btnLLogin.Click
-        Dim usuario As New Usuario("a", "a", txtLUsuario.Text, txtLContra.Text, txtLContra.Text)
+        Dim usuario As New Usuario(txtLUsuario.Text, txtLContra.Text)
         If (usuario.Loguear() = True) Then
             Me.Hide()
             Lobby.Show()

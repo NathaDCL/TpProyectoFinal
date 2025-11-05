@@ -23,6 +23,7 @@ Partial Class Lobby
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         btnLClientes = New Button()
+        btnLProductos = New Button()
         SuspendLayout()
         ' 
         ' btnLClientes
@@ -34,11 +35,21 @@ Partial Class Lobby
         btnLClientes.Text = "Clientes"
         btnLClientes.UseVisualStyleBackColor = True
         ' 
+        ' btnLProductos
+        ' 
+        btnLProductos.Location = New Point(244, 192)
+        btnLProductos.Name = "btnLProductos"
+        btnLProductos.Size = New Size(110, 53)
+        btnLProductos.TabIndex = 1
+        btnLProductos.Text = "Productos"
+        btnLProductos.UseVisualStyleBackColor = True
+        ' 
         ' Lobby
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(800, 450)
+        Controls.Add(btnLProductos)
         Controls.Add(btnLClientes)
         Name = "Lobby"
         Text = "Lobby"
@@ -46,4 +57,5 @@ Partial Class Lobby
     End Sub
 
     Friend WithEvents btnLClientes As Button
+    Friend WithEvents btnLProductos As Button
 End Class

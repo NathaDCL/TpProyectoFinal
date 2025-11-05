@@ -4,7 +4,7 @@ Public Class Clientes
     Inherits Usuario
     Private _Id As Integer
     Private _Cliente As String
-    Private _Tel As Integer
+    Private _Tel As String
     Private _Correo As String
     Public Property Id As Integer
         Get
@@ -39,12 +39,12 @@ Public Class Clientes
             End If
         End Set
     End Property
-    Public Property Tel As Integer
+    Public Property Tel As String
         Get
             Return _Tel
         End Get
-        Set(value As Integer)
-            If value > 0 Or value = Not Nothing Then
+        Set(value As String)
+            If Val(value) > 0 Or value = Not Nothing Then
                 _Tel = value
             Else
                 MsgBox("Error con el telefono")
@@ -83,6 +83,26 @@ Public Class Clientes
         Me.Correo = Correo
 
     End Sub
+    Public Overridable Sub Carga(dgv As DataGridView)
+        Dim con As New Conexion
+        Try
+
+            con.Encendido()
+            Dim consulta As String = "SELECT * FROM clientes"
+            Dim adaptador As New MySqlDataAdapter(consulta, con.ObtenerConexion())
+            Dim tabla As New DataTable()
+            adaptador.Fill(tabla)
+
+            dgv.DataSource = tabla
+            dgv.Columns("ID").ReadOnly = True
+            dgv.Columns("Activo").ReadOnly = True
+        Catch ex As Exception
+            MessageBox.Show("Error al conectar con la base de datos: " & ex.Message)
+        Finally
+            con.Apagado()
+        End Try
+    End Sub
+
     Public Overrides Function Alta() As Boolean
         Dim resultado As Boolean
         Dim con As New Conexion
@@ -90,14 +110,17 @@ Public Class Clientes
             con.Encendido()
             Dim Consulta As String = "INSERT INTO clientes (Cliente, Telefono, Correo) VALUES (@Cliente, @Telefono, @Correo)"
             Dim Comando As New MySqlCommand(Consulta, con.ObtenerConexion())
-            Comando.Parameters.AddWithValue("@Cliente", Me.Cliente)
-            Comando.Parameters.AddWithValue("@Telefono", Me.Tel)
-            Comando.Parameters.AddWithValue("@Correo", Me.Correo)
-            Comando.ExecuteNonQuery()
-            MsgBox("Cliente registrado")
-            resultado = True
+            If (Tel = "") Then
+                resultado = False
+            Else
+                Comando.Parameters.AddWithValue("@Cliente", Me.Cliente)
+                Comando.Parameters.AddWithValue("@Telefono", Me.Tel)
+                Comando.Parameters.AddWithValue("@Correo", Me.Correo)
+                Comando.ExecuteNonQuery()
+                MsgBox("Cliente registrado")
+                resultado = True
 
-
+            End If
         Catch ex As Exception
             MsgBox("Error: " & ex.Message)
             resultado = False
@@ -106,5 +129,61 @@ Public Class Clientes
         End Try
         Return resultado
     End Function
+    Public Overridable Function Baja() As Boolean
+        Dim resultado As Boolean
+        Dim con As New Conexion
+        Try
+            con.Encendido()
+            Dim Consulta As String = "UPDATE clientes SET Activo = CASE WHEN Activo = 'si' THEN 'no' ELSE 'si' END WHERE ID = @ID"
 
+            Dim Comando As New MySqlCommand(Consulta, con.ObtenerConexion())
+            Comando.Parameters.AddWithValue("@ID", InputBox("Ingrese el id cliente que desea desactivar o activar"))
+
+            If (Comando.ExecuteNonQuery() > 0) Then
+                MsgBox("Cliente actualizado")
+                resultado = True
+            Else
+                MsgBox("Cliente inexistente o sin cambios")
+                resultado = False
+            End If
+        Catch ex As Exception
+            MsgBox("Error: " & ex.Message)
+            resultado = False
+        Finally
+            con.Apagado()
+        End Try
+        Return resultado
+    End Function
+    Public Overridable Function Modificacion(dgv As DataGridView) As Boolean
+        Dim resultado As Boolean
+        Dim con As New Conexion
+
+        Try
+            con.Encendido()
+
+            Dim Consulta As String = "UPDATE clientes SET Cliente = @Cliente, Telefono = @Telefono, Correo = @Correo WHERE ID = @ID AND (Cliente <> @Cliente OR Telefono <> @Telefono OR Correo <> @Correo)"
+            Dim Comando As New MySqlCommand(Consulta, con.ObtenerConexion())
+
+            Comando.Parameters.AddWithValue("@Cliente", dgv.CurrentRow.Cells("Cliente").Value)
+            Comando.Parameters.AddWithValue("@Telefono", dgv.CurrentRow.Cells("Telefono").Value)
+            Comando.Parameters.AddWithValue("@Correo", dgv.CurrentRow.Cells("Correo").Value)
+            Comando.Parameters.AddWithValue("@ID", dgv.CurrentRow.Cells("ID").Value)
+
+            If (Comando.ExecuteNonQuery() > 0) Then
+                MsgBox("Cliente modificado")
+                resultado = True
+            Else
+                MsgBox("Cliente inexistente o sin cambios")
+                resultado = False
+            End If
+        Catch ex As Exception
+            MsgBox("Error: " & ex.Message)
+            resultado = False
+
+        Finally
+            con.Apagado()
+        End Try
+
+        Return resultado
+    End Function
 End Class

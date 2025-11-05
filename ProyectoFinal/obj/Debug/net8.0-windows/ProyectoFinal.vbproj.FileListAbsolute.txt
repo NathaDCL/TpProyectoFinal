@@ -70,3 +70,7 @@ C:\Users\PC-1\Desktop\TpProyectoFinal\ProyectoFinal\obj\Debug\net8.0-windows\Pro
 C:\Users\PC-1\Desktop\TpProyectoFinal\ProyectoFinal\obj\Debug\net8.0-windows\ref\ProyectoFinal.dll
 C:\Users\PC-1\Desktop\TpProyectoFinal\ProyectoFinal\obj\Debug\net8.0-windows\ProyectoFinal.AltaClientes.resources
 C:\Users\PC-1\Desktop\TpProyectoFinal\ProyectoFinal\obj\Debug\net8.0-windows\ProyectoFinal.SeccionClientes.resources
+C:\Users\Estudiante\Desktop\TpProyectoFinal\ProyectoFinal\obj\Debug\net8.0-windows\ProyectoFinal.AltaClientes.resources
+C:\Users\Estudiante\Desktop\TpProyectoFinal\ProyectoFinal\obj\Debug\net8.0-windows\ProyectoFinal.SeccionClientes.resources
+C:\Users\Estudiante\Desktop\TpProyectoFinal\ProyectoFinal\obj\Debug\net8.0-windows\ProyectoFinal.AltaProductos.resources
+C:\Users\Estudiante\Desktop\TpProyectoFinal\ProyectoFinal\obj\Debug\net8.0-windows\ProyectoFinal.SeccionProductos.resources

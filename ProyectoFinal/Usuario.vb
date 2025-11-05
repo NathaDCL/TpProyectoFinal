@@ -91,6 +91,12 @@ Public Class Usuario
     Public Sub New()
 
     End Sub
+    Public Sub New(Usuario As String, Contra As String)
+
+        Me.Usuario = Usuario
+        Me.Contra = Contra
+
+    End Sub
     Public Sub New(Nombre As String, Apellido As String, Usuario As String, Contra As String, CContra As String)
         Me.Nombre = Nombre
         Me.Apellido = Apellido
