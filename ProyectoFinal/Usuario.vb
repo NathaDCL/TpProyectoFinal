@@ -99,7 +99,7 @@ Public Class Usuario
         Me.CContra = CContra
     End Sub
 
-    Public Function Registrar() As Boolean
+    Public Overridable Function Alta() As Boolean
         Dim resultado As Boolean
         Dim con As New Conexion
         Try

@@ -22,9 +22,28 @@ Partial Class Lobby
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        components = New System.ComponentModel.Container
-        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Text = "Lobby"
+        btnLClientes = New Button()
+        SuspendLayout()
+        ' 
+        ' btnLClientes
+        ' 
+        btnLClientes.Location = New Point(90, 192)
+        btnLClientes.Name = "btnLClientes"
+        btnLClientes.Size = New Size(105, 55)
+        btnLClientes.TabIndex = 0
+        btnLClientes.Text = "Clientes"
+        btnLClientes.UseVisualStyleBackColor = True
+        ' 
+        ' Lobby
+        ' 
+        AutoScaleDimensions = New SizeF(7F, 15F)
+        AutoScaleMode = AutoScaleMode.Font
+        ClientSize = New Size(800, 450)
+        Controls.Add(btnLClientes)
+        Name = "Lobby"
+        Text = "Lobby"
+        ResumeLayout(False)
     End Sub
+
+    Friend WithEvents btnLClientes As Button
 End Class
