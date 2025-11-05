@@ -23,12 +23,18 @@ USE `bddtpfinal`;
 CREATE TABLE IF NOT EXISTS `clientes` (
   `ID` int(11) NOT NULL AUTO_INCREMENT,
   `Cliente` varchar(50) NOT NULL,
-  `Telefono` int(11) NOT NULL DEFAULT 0,
+  `Telefono` int(11) NOT NULL,
   `Correo` varchar(50) NOT NULL,
   PRIMARY KEY (`ID`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4;
 
--- Volcando datos para la tabla bddtpfinal.clientes: ~0 rows (aproximadamente)
+-- Volcando datos para la tabla bddtpfinal.clientes: ~5 rows (aproximadamente)
+INSERT INTO `clientes` (`ID`, `Cliente`, `Telefono`, `Correo`) VALUES
+	(1, 'a', 12, 'a@'),
+	(2, '', 12, 'a@'),
+	(3, 'a', 0, 'a@'),
+	(4, 'a', 0, 'a@'),
+	(5, 'a', 0, 'a@');
 
 -- Volcando estructura para tabla bddtpfinal.productos
 CREATE TABLE IF NOT EXISTS `productos` (
@@ -40,6 +46,20 @@ CREATE TABLE IF NOT EXISTS `productos` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- Volcando datos para la tabla bddtpfinal.productos: ~0 rows (aproximadamente)
+
+-- Volcando estructura para tabla bddtpfinal.usuarios
+CREATE TABLE IF NOT EXISTS `usuarios` (
+  `IdUsuario` int(11) NOT NULL AUTO_INCREMENT,
+  `Nombre` varchar(50) NOT NULL DEFAULT '0',
+  `Apellido` varchar(50) NOT NULL DEFAULT '0',
+  `NomUsuario` varchar(50) NOT NULL DEFAULT '0',
+  `Contraseña` varchar(50) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`IdUsuario`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4;
+
+-- Volcando datos para la tabla bddtpfinal.usuarios: ~1 rows (aproximadamente)
+INSERT INTO `usuarios` (`IdUsuario`, `Nombre`, `Apellido`, `NomUsuario`, `Contraseña`) VALUES
+	(1, 'a', 'a', 'a', 'a');
 
 -- Volcando estructura para tabla bddtpfinal.ventas
 CREATE TABLE IF NOT EXISTS `ventas` (
