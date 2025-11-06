@@ -24,11 +24,12 @@ Partial Class Lobby
     Private Sub InitializeComponent()
         btnLClientes = New Button()
         btnLProductos = New Button()
+        btnLVentas = New Button()
         SuspendLayout()
         ' 
         ' btnLClientes
         ' 
-        btnLClientes.Location = New Point(90, 192)
+        btnLClientes.Location = New Point(114, 190)
         btnLClientes.Name = "btnLClientes"
         btnLClientes.Size = New Size(105, 55)
         btnLClientes.TabIndex = 0
@@ -37,18 +38,28 @@ Partial Class Lobby
         ' 
         ' btnLProductos
         ' 
-        btnLProductos.Location = New Point(244, 192)
+        btnLProductos.Location = New Point(322, 192)
         btnLProductos.Name = "btnLProductos"
-        btnLProductos.Size = New Size(110, 53)
+        btnLProductos.Size = New Size(105, 53)
         btnLProductos.TabIndex = 1
         btnLProductos.Text = "Productos"
         btnLProductos.UseVisualStyleBackColor = True
+        ' 
+        ' btnLVentas
+        ' 
+        btnLVentas.Location = New Point(540, 192)
+        btnLVentas.Name = "btnLVentas"
+        btnLVentas.Size = New Size(110, 53)
+        btnLVentas.TabIndex = 2
+        btnLVentas.Text = "Ventas"
+        btnLVentas.UseVisualStyleBackColor = True
         ' 
         ' Lobby
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(800, 450)
+        Controls.Add(btnLVentas)
         Controls.Add(btnLProductos)
         Controls.Add(btnLClientes)
         Name = "Lobby"
@@ -58,4 +69,5 @@ Partial Class Lobby
 
     Friend WithEvents btnLClientes As Button
     Friend WithEvents btnLProductos As Button
+    Friend WithEvents btnLVentas As Button
 End Class

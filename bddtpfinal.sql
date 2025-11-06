@@ -27,9 +27,11 @@ CREATE TABLE IF NOT EXISTS `clientes` (
   `Correo` varchar(50) NOT NULL,
   `Activo` varchar(2) NOT NULL DEFAULT 'si',
   PRIMARY KEY (`ID`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
--- Volcando datos para la tabla bddtpfinal.clientes: ~0 rows (aproximadamente)
+-- Volcando datos para la tabla bddtpfinal.clientes: ~1 rows (aproximadamente)
+INSERT INTO `clientes` (`ID`, `Cliente`, `Telefono`, `Correo`, `Activo`) VALUES
+	(1, 'a', '12', 'a@', 'si');
 
 -- Volcando estructura para tabla bddtpfinal.productos
 CREATE TABLE IF NOT EXISTS `productos` (

@@ -7,6 +7,12 @@
     <Compile Update="AltaProductos.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="AltaVentas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="AltaVentasItems.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Lobby.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -20,6 +26,9 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="SeccionProductos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SeccionVentas.vb">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

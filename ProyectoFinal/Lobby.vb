@@ -8,4 +8,9 @@
         Me.Hide()
         SeccionProductos.Show()
     End Sub
+
+    Private Sub btnLVentas_Click(sender As Object, e As EventArgs) Handles btnLVentas.Click
+        Me.Hide()
+        SeccionVentas.Show()
+    End Sub
 End Class
