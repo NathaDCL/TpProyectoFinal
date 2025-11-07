@@ -92,15 +92,14 @@ Public Class VentasItems
         Me.PrecioT = PrecioU * Cantidad
 
     End Sub
-    Public Sub New(IdProducto As Integer, PrecioU As Double, Cantidad As Integer)
+    Public Sub New(IdProducto As Integer, Cantidad As Integer)
 
         Me.IdProducto = IdProducto
-        Me.PrecioU = PrecioU
         Me.Cantidad = Cantidad
-        Me.PrecioT = PrecioU * Cantidad
+
 
     End Sub
-    Public Function Verificacion(IdProducto As Integer, PrecioUnitario As Double) As Boolean
+    Public Function Verificacion(IdProducto As Integer) As Boolean
         Dim con As New Conexion
         Dim resultado As Boolean
         Try
@@ -117,18 +116,8 @@ Public Class VentasItems
                 MsgBox("Producto inexistente")
                 Return False
             End If
-            Dim ConsultaPrecio As String = "SELECT Precio FROM productos WHERE ID = @IDProducto"
-            Dim ComandoPrecio As New MySqlCommand(ConsultaPrecio, con.ObtenerConexion())
-            ComandoPrecio.Parameters.AddWithValue("@IDProducto", IdProducto)
-            Dim ResultadoPrecio As Double = Val(ComandoPrecio.ExecuteScalar())
-            If ResultadoPrecio <> PrecioUnitario Then
-                MsgBox("Precio no coincidente")
-                resultado = False
 
-            Else
-                resultado = True
-            End If
-            Return resultado
+
         Catch ex As Exception
             MsgBox("Error: " & ex.Message)
             Return False
@@ -136,12 +125,13 @@ Public Class VentasItems
         Finally
             con.Apagado()
         End Try
+        Return resultado
     End Function
     Public Overrides Function Alta() As Boolean
         Dim resultado As Boolean
         Dim con As New Conexion
         Try
-            If (Verificacion(Me.IdProducto, Me.PrecioU) = False) Then
+            If (Verificacion(Me.IdProducto) = False) Then
                 resultado = False
 
             Else
@@ -150,25 +140,33 @@ Public Class VentasItems
 
                 Dim Consulta As String = "INSERT INTO ventasitems (IDVenta, IDProducto, PrecioUnitario, Cantidad, PrecioTotal) VALUES (@IDVenta, @IDProducto, @PrecioUnitario, @Cantidad, @PrecioTotal)"
                 Dim Comando As New MySqlCommand(Consulta, con.ObtenerConexion())
+                Dim ConsultaIDventas As String = "SELECT MAX(ID) FROM ventas"
+                Dim ComandoIDventas As New MySqlCommand(ConsultaIDventas, con.ObtenerConexion())
+                Dim ResultadoIDventas As Integer = Val(ComandoIDventas.ExecuteScalar())
+                Dim ConsultaPrecio As String = "SELECT Precio FROM productos WHERE ID = @IDProducto"
+                Dim ComandoPrecio As New MySqlCommand(ConsultaPrecio, con.ObtenerConexion())
+                ComandoPrecio.Parameters.AddWithValue("@IDProducto", Me.IdProducto)
+                Dim PrecioProducto As Double = Val(ComandoPrecio.ExecuteScalar())
 
-                Comando.Parameters.AddWithValue("@IDVenta", ModuloVentas.IdVentaGenerado)
+                Comando.Parameters.AddWithValue("@IDVenta", ResultadoIDventas)
                 Comando.Parameters.AddWithValue("@IDProducto", Me.IdProducto)
-                Comando.Parameters.AddWithValue("@PrecioUnitario", Me.PrecioU)
+                Comando.Parameters.AddWithValue("@PrecioUnitario", PrecioProducto)
                 Comando.Parameters.AddWithValue("@Cantidad", Me.Cantidad)
-                Comando.Parameters.AddWithValue("@PrecioTotal", Me.PrecioT)
+                Comando.Parameters.AddWithValue("@PrecioTotal", Me.Cantidad * PrecioProducto)
                 Comando.ExecuteNonQuery()
 
                 Dim ConsultaTotal As String = "SELECT SUM(PrecioTotal) FROM ventasitems WHERE IDVenta = @IDVenta"
                 Dim ComandoTotal As New MySqlCommand(ConsultaTotal, con.ObtenerConexion())
-                ComandoTotal.Parameters.AddWithValue("@IDVenta", ModuloVentas.IdVentaGenerado)
+                ComandoTotal.Parameters.AddWithValue("@IDVenta", ResultadoIDventas)
                 Dim Total As Double = Val(ComandoTotal.ExecuteScalar())
 
 
-                Dim ConsultaSubirTotal As String = "UPDATE ventas SET Total = @Total WHERE ID = @IDVenta"
+                Dim ConsultaSubirTotal As String = "UPDATE ventas SET Total = @Total, Activo = 'si' WHERE ID = @IDVenta"
                 Dim ComandoSubirTotal As New MySqlCommand(ConsultaSubirTotal, con.ObtenerConexion())
                 ComandoSubirTotal.Parameters.AddWithValue("@Total", Total)
-                ComandoSubirTotal.Parameters.AddWithValue("@IDVenta", ModuloVentas.IdVentaGenerado)
+                ComandoSubirTotal.Parameters.AddWithValue("@IDVenta", ResultadoIDventas)
                 ComandoSubirTotal.ExecuteNonQuery()
+
                 MsgBox("Ventas items registrado")
                 resultado = True
             End If

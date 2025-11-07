@@ -23,10 +23,8 @@ Partial Class AltaVentasItems
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Label2 = New Label()
-        Label3 = New Label()
         Label4 = New Label()
         txtVIIdproducto = New TextBox()
-        txtVIPrecioU = New TextBox()
         txtVICantidad = New TextBox()
         btnVICancelar = New Button()
         btnVIAlta = New Button()
@@ -41,19 +39,10 @@ Partial Class AltaVentasItems
         Label2.TabIndex = 1
         Label2.Text = "IdProducto"
         ' 
-        ' Label3
-        ' 
-        Label3.AutoSize = True
-        Label3.Location = New Point(137, 163)
-        Label3.Name = "Label3"
-        Label3.Size = New Size(85, 15)
-        Label3.TabIndex = 2
-        Label3.Text = "Precio Unitario"
-        ' 
         ' Label4
         ' 
         Label4.AutoSize = True
-        Label4.Location = New Point(137, 227)
+        Label4.Location = New Point(137, 176)
         Label4.Name = "Label4"
         Label4.Size = New Size(55, 15)
         Label4.TabIndex = 3
@@ -66,16 +55,9 @@ Partial Class AltaVentasItems
         txtVIIdproducto.Size = New Size(100, 23)
         txtVIIdproducto.TabIndex = 5
         ' 
-        ' txtVIPrecioU
-        ' 
-        txtVIPrecioU.Location = New Point(228, 160)
-        txtVIPrecioU.Name = "txtVIPrecioU"
-        txtVIPrecioU.Size = New Size(100, 23)
-        txtVIPrecioU.TabIndex = 6
-        ' 
         ' txtVICantidad
         ' 
-        txtVICantidad.Location = New Point(228, 224)
+        txtVICantidad.Location = New Point(228, 173)
         txtVICantidad.Name = "txtVICantidad"
         txtVICantidad.Size = New Size(100, 23)
         txtVICantidad.TabIndex = 7
@@ -106,10 +88,8 @@ Partial Class AltaVentasItems
         Controls.Add(btnVIAlta)
         Controls.Add(btnVICancelar)
         Controls.Add(txtVICantidad)
-        Controls.Add(txtVIPrecioU)
         Controls.Add(txtVIIdproducto)
         Controls.Add(Label4)
-        Controls.Add(Label3)
         Controls.Add(Label2)
         Name = "AltaVentasItems"
         Text = "AltaVentasItems"
@@ -117,10 +97,8 @@ Partial Class AltaVentasItems
         PerformLayout()
     End Sub
     Friend WithEvents Label2 As Label
-    Friend WithEvents Label3 As Label
     Friend WithEvents Label4 As Label
     Friend WithEvents txtVIIdproducto As TextBox
-    Friend WithEvents txtVIPrecioU As TextBox
     Friend WithEvents txtVICantidad As TextBox
     Friend WithEvents btnVICancelar As Button
     Friend WithEvents btnVIAlta As Button

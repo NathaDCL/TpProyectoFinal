@@ -33,7 +33,7 @@ Partial Class AltaVentas
         ' Label1
         ' 
         Label1.AutoSize = True
-        Label1.Location = New Point(163, 99)
+        Label1.Location = New Point(139, 158)
         Label1.Name = "Label1"
         Label1.Size = New Size(54, 15)
         Label1.TabIndex = 0
@@ -42,7 +42,7 @@ Partial Class AltaVentas
         ' Label2
         ' 
         Label2.AutoSize = True
-        Label2.Location = New Point(163, 200)
+        Label2.Location = New Point(138, 89)
         Label2.Name = "Label2"
         Label2.Size = New Size(126, 15)
         Label2.TabIndex = 1
@@ -50,14 +50,14 @@ Partial Class AltaVentas
         ' 
         ' txtVIdCliente
         ' 
-        txtVIdCliente.Location = New Point(241, 96)
+        txtVIdCliente.Location = New Point(279, 155)
         txtVIdCliente.Name = "txtVIdCliente"
         txtVIdCliente.Size = New Size(100, 23)
         txtVIdCliente.TabIndex = 2
         ' 
         ' txtVFecha
         ' 
-        txtVFecha.Location = New Point(304, 197)
+        txtVFecha.Location = New Point(279, 86)
         txtVFecha.Name = "txtVFecha"
         txtVFecha.Size = New Size(100, 23)
         txtVFecha.TabIndex = 3

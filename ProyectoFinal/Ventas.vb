@@ -58,6 +58,8 @@ Public Class Ventas
     Public Sub New()
 
     End Sub
+
+
     Public Sub New(IdCliente As Integer, Fecha As Date)
 
         Me.IdCliente = IdCliente
@@ -71,6 +73,53 @@ Public Class Ventas
         Me.Fecha = Fecha
         Me.Total = Total
 
+    End Sub
+    Public Sub BusquedaFechas(Fecha1 As Date, Fecha2 As Date, dgv As DataGridView)
+        Dim con As New Conexion
+        Try
+            con.Encendido()
+
+            Dim consulta As String = "SELECT ID, IDCliente, Fecha, Total FROM ventas WHERE (Fecha BETWEEN @FechaInicio AND @FechaFin) AND Activo = 'si' ORDER BY Fecha"
+
+            Dim adaptador As New MySqlDataAdapter(consulta, con.ObtenerConexion())
+            adaptador.SelectCommand.Parameters.AddWithValue("@FechaInicio", Fecha1)
+            adaptador.SelectCommand.Parameters.AddWithValue("@FechaFin", Fecha2)
+            Dim tabla As New DataTable()
+            adaptador.Fill(tabla)
+
+            dgv.DataSource = tabla
+            dgv.Columns("ID").ReadOnly = True
+            dgv.Columns("IDCliente").ReadOnly = True
+            dgv.Columns("Fecha").ReadOnly = True
+            dgv.Columns("Total").ReadOnly = True
+
+        Catch ex As Exception
+            MessageBox.Show("Error al conectar con la base de datos: " & ex.Message)
+        Finally
+            con.Apagado()
+        End Try
+    End Sub
+    Public Overrides Sub Carga(dgv As DataGridView)
+        Dim con As New Conexion
+        Try
+
+            con.Encendido()
+            Dim consulta As String = "SELECT ID, IDCliente, Fecha, Total FROM ventas WHERE Activo = 'si'"
+            Dim adaptador As New MySqlDataAdapter(consulta, con.ObtenerConexion())
+            Dim tabla As New DataTable()
+            adaptador.Fill(tabla)
+
+            dgv.DataSource = tabla
+            dgv.Columns("ID").ReadOnly = True
+            dgv.Columns("IDCliente").ReadOnly = True
+            dgv.Columns("Fecha").ReadOnly = True
+            dgv.Columns("Total").ReadOnly = True
+
+        Catch ex As Exception
+            MessageBox.Show("Error al conectar con la base de datos: " & ex.Message)
+        Finally
+            con.Apagado()
+        End Try
     End Sub
     Public Function Verificacion(Id As Integer) As Boolean
         Dim con As New Conexion
@@ -98,14 +147,15 @@ Public Class Ventas
             con.Apagado()
         End Try
     End Function
-    Public Function Alta() As Integer
 
+    Public Overrides Function Alta() As Boolean
+        Dim resultado As Boolean
         Dim con As New Conexion
+
         Try
             If (Verificacion(Me.IdCliente) = False) Then
-
                 MsgBox("Cliente inexistente")
-                Return -1
+                resultado = False
             Else
                 con.Encendido()
                 Dim Consulta As String = "INSERT INTO ventas (IDCliente, Fecha) VALUES (@IDCliente, @Fecha)"
@@ -116,20 +166,16 @@ Public Class Ventas
 
                 Comando.ExecuteNonQuery()
                 MsgBox("Venta creada")
-                Dim ConsultaIDventas As String = "SELECT LAST_INSERT_ID()"
-                Dim ComandoIDventas As New MySqlCommand(ConsultaIDventas, con.ObtenerConexion())
-                Dim ResultadoIDventas As Integer = Val(ComandoIDventas.ExecuteScalar())
 
-                ModuloVentas.IdVentaGenerado = ResultadoIDventas
-
+                resultado = True
             End If
         Catch ex As Exception
             MsgBox("Error: " & ex.Message)
-            Return -1
+            resultado = False
         Finally
             con.Apagado()
         End Try
-        Return 0
+        Return resultado
     End Function
 
 End Class

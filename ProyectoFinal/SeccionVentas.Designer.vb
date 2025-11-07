@@ -24,13 +24,12 @@ Partial Class SeccionVentas
     Private Sub InitializeComponent()
         btnVAlta = New Button()
         btnVHistorial = New Button()
-        btnVFechas = New Button()
         btnVLobby = New Button()
         SuspendLayout()
         ' 
         ' btnVAlta
         ' 
-        btnVAlta.Location = New Point(86, 222)
+        btnVAlta.Location = New Point(175, 222)
         btnVAlta.Name = "btnVAlta"
         btnVAlta.Size = New Size(107, 45)
         btnVAlta.TabIndex = 0
@@ -39,21 +38,12 @@ Partial Class SeccionVentas
         ' 
         ' btnVHistorial
         ' 
-        btnVHistorial.Location = New Point(321, 222)
+        btnVHistorial.Location = New Point(493, 222)
         btnVHistorial.Name = "btnVHistorial"
         btnVHistorial.Size = New Size(107, 45)
         btnVHistorial.TabIndex = 1
         btnVHistorial.Text = "Historial"
         btnVHistorial.UseVisualStyleBackColor = True
-        ' 
-        ' btnVFechas
-        ' 
-        btnVFechas.Location = New Point(590, 222)
-        btnVFechas.Name = "btnVFechas"
-        btnVFechas.Size = New Size(107, 45)
-        btnVFechas.TabIndex = 2
-        btnVFechas.Text = "Búsqueda entre fechas"
-        btnVFechas.UseVisualStyleBackColor = True
         ' 
         ' btnVLobby
         ' 
@@ -70,7 +60,6 @@ Partial Class SeccionVentas
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(800, 450)
         Controls.Add(btnVLobby)
-        Controls.Add(btnVFechas)
         Controls.Add(btnVHistorial)
         Controls.Add(btnVAlta)
         Name = "SeccionVentas"
@@ -80,6 +69,5 @@ Partial Class SeccionVentas
 
     Friend WithEvents btnVAlta As Button
     Friend WithEvents btnVHistorial As Button
-    Friend WithEvents btnVFechas As Button
     Friend WithEvents btnVLobby As Button
 End Class

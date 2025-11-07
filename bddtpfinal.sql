@@ -41,9 +41,11 @@ CREATE TABLE IF NOT EXISTS `productos` (
   `Categoria` varchar(50) NOT NULL,
   `Activo` varchar(2) NOT NULL DEFAULT 'si',
   PRIMARY KEY (`ID`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
--- Volcando datos para la tabla bddtpfinal.productos: ~0 rows (aproximadamente)
+-- Volcando datos para la tabla bddtpfinal.productos: ~1 rows (aproximadamente)
+INSERT INTO `productos` (`ID`, `Nombre`, `Precio`, `Categoria`, `Activo`) VALUES
+	(1, 'cosa', 7564, 'rara', 'si');
 
 -- Volcando estructura para tabla bddtpfinal.usuarios
 CREATE TABLE IF NOT EXISTS `usuarios` (
@@ -65,6 +67,7 @@ CREATE TABLE IF NOT EXISTS `ventas` (
   `IDCliente` int(11) NOT NULL,
   `Fecha` date NOT NULL,
   `Total` double NOT NULL,
+  `Activo` varchar(2) NOT NULL DEFAULT 'no',
   PRIMARY KEY (`ID`),
   KEY `IDCliente` (`IDCliente`),
   CONSTRAINT `IDCliente` FOREIGN KEY (`IDCliente`) REFERENCES `clientes` (`ID`) ON DELETE NO ACTION ON UPDATE NO ACTION

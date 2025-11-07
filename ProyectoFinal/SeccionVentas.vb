@@ -8,4 +8,9 @@
         Me.Hide()
         Lobby.Show()
     End Sub
+
+    Private Sub btnVHistorial_Click(sender As Object, e As EventArgs) Handles btnVHistorial.Click
+        Me.Hide()
+        HistorialVentas.Show()
+    End Sub
 End Class

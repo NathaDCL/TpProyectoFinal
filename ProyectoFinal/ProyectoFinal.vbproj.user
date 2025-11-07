@@ -13,6 +13,9 @@
     <Compile Update="AltaVentasItems.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="HistorialVentas.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Lobby.vb">
       <SubType>Form</SubType>
     </Compile>
