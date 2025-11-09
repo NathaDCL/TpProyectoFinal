@@ -83,12 +83,60 @@ Public Class Clientes
         Me.Correo = Correo
 
     End Sub
+    Public Sub Descender(dgv As DataGridView)
+        Dim con As New Conexion
+        Try
+
+            con.Encendido()
+            Dim consulta As String = "SELECT * FROM clientes WHERE Activo = 'si' ORDER BY ID DESC"
+            Dim adaptador As New MySqlDataAdapter(consulta, con.ObtenerConexion())
+            Dim tabla As New DataTable()
+            adaptador.Fill(tabla)
+
+            dgv.DataSource = tabla
+            dgv.Columns("ID").ReadOnly = True
+            dgv.Columns("Activo").ReadOnly = True
+        Catch ex As Exception
+            MessageBox.Show("Error al conectar con la base de datos: " & ex.Message)
+        Finally
+            con.Apagado()
+        End Try
+    End Sub
+    Public Sub BusquedaTotal(dgv As DataGridView)
+        Dim con As New Conexion
+        Try
+            con.Encendido()
+            Dim TotalString As String = InputBox("Ingrese total")
+            If (TotalString = "" Or Not IsNumeric(TotalString)) Then
+                MsgBox("Ingrese valores validos")
+            Else
+                Dim Total As Double = Val(TotalString)
+
+                Dim consulta As String = "SELECT DISTINCT c.* FROM clientes c INNER JOIN ventas v ON c.ID = v.IDCliente WHERE v.Total > @Total AND c.Activo = 'si'"
+                Dim comando As New MySqlCommand(consulta, con.ObtenerConexion())
+                comando.Parameters.AddWithValue("@Total", Total)
+                Dim adaptador As New MySqlDataAdapter(comando)
+
+                Dim tabla As New DataTable()
+                adaptador.Fill(tabla)
+                dgv.DataSource = tabla
+
+            End If
+
+        Catch ex As Exception
+            MsgBox("Error: " & ex.Message)
+
+        Finally
+            con.Apagado()
+        End Try
+
+    End Sub
     Public Overridable Sub Carga(dgv As DataGridView)
         Dim con As New Conexion
         Try
 
             con.Encendido()
-            Dim consulta As String = "SELECT * FROM clientes"
+            Dim consulta As String = "SELECT * FROM clientes WHERE Activo = 'si'"
             Dim adaptador As New MySqlDataAdapter(consulta, con.ObtenerConexion())
             Dim tabla As New DataTable()
             adaptador.Fill(tabla)

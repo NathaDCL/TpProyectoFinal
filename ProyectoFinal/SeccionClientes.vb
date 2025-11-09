@@ -21,10 +21,24 @@
 
     Private Sub btnCRefrescar_Click(sender As Object, e As EventArgs) Handles btnCRefrescar.Click
         cliente.Carga(dgvMClientes)
+        rbCAsc.Checked = False
+        rbCDsc.Checked = False
     End Sub
 
     Private Sub btnCLobby_Click(sender As Object, e As EventArgs) Handles btnCLobby.Click
         Me.Hide()
         Lobby.Show()
+    End Sub
+
+    Private Sub rbCAsc_CheckedChanged(sender As Object, e As EventArgs) Handles rbCAsc.CheckedChanged
+        cliente.Carga(dgvMClientes)
+    End Sub
+
+    Private Sub rbCDsc_CheckedChanged(sender As Object, e As EventArgs) Handles rbCDsc.CheckedChanged
+        cliente.Descender(dgvMClientes)
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles btnCTotal.Click
+        cliente.BusquedaTotal(dgvMClientes)
     End Sub
 End Class

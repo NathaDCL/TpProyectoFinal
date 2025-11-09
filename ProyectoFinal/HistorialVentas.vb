@@ -8,6 +8,8 @@
 
 
                 venta.BusquedaFechas(Fechauno, Fechados, dgvMVentas)
+                txtHVFechauno.Text = ""
+                txtHVFechados.Text = ""
             Else
                 MsgBox("Error con fecha/s")
             End If
@@ -26,5 +28,13 @@
     Private Sub btnHVCancelar_Click(sender As Object, e As EventArgs) Handles btnHVCancelar.Click
         Me.Hide()
         SeccionVentas.Show()
+        txtHVFechauno.Text = ""
+        txtHVFechados.Text = ""
+    End Sub
+
+    Private Sub btnVRefrescar_Click(sender As Object, e As EventArgs) Handles btnVRefrescar.Click
+        venta.Carga(dgvMVentas)
+        txtHVFechauno.Text = ""
+        txtHVFechados.Text = ""
     End Sub
 End Class

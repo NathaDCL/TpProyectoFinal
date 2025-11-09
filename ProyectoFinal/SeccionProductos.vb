@@ -1,4 +1,6 @@
-﻿Public Class SeccionProductos
+﻿Imports Mysqlx.XDevAPI
+
+Public Class SeccionProductos
     Dim producto As New Productos()
     Private Sub btnPAlta_Click(sender As Object, e As EventArgs) Handles btnPAlta.Click
         Me.Hide()
@@ -24,5 +26,13 @@
 
     Private Sub SeccionProductos_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         producto.Carga(dgvMProductos)
+    End Sub
+
+    Private Sub btnPCategoria_Click(sender As Object, e As EventArgs) Handles btnPCategoria.Click
+        producto.BusquedaCategoria(dgvMProductos)
+    End Sub
+
+    Private Sub btnPBCliente_Click(sender As Object, e As EventArgs) Handles btnPBCliente.Click
+        producto.BusquedaCliente(dgvMProductos)
     End Sub
 End Class

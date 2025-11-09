@@ -27,11 +27,13 @@ CREATE TABLE IF NOT EXISTS `clientes` (
   `Correo` varchar(50) NOT NULL,
   `Activo` varchar(2) NOT NULL DEFAULT 'si',
   PRIMARY KEY (`ID`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
--- Volcando datos para la tabla bddtpfinal.clientes: ~1 rows (aproximadamente)
+-- Volcando datos para la tabla bddtpfinal.clientes: ~3 rows (aproximadamente)
 INSERT INTO `clientes` (`ID`, `Cliente`, `Telefono`, `Correo`, `Activo`) VALUES
-	(1, 'a', '12', 'a@', 'si');
+	(1, 'a', '12', 'a@', 'si'),
+	(2, 'b', '14', 'b@', 'si'),
+	(3, 'c', '13', 'c@', 'si');
 
 -- Volcando estructura para tabla bddtpfinal.productos
 CREATE TABLE IF NOT EXISTS `productos` (
@@ -41,11 +43,14 @@ CREATE TABLE IF NOT EXISTS `productos` (
   `Categoria` varchar(50) NOT NULL,
   `Activo` varchar(2) NOT NULL DEFAULT 'si',
   PRIMARY KEY (`ID`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
--- Volcando datos para la tabla bddtpfinal.productos: ~1 rows (aproximadamente)
+-- Volcando datos para la tabla bddtpfinal.productos: ~4 rows (aproximadamente)
 INSERT INTO `productos` (`ID`, `Nombre`, `Precio`, `Categoria`, `Activo`) VALUES
-	(1, 'cosa', 7564, 'rara', 'si');
+	(1, 'cosa', 7564, 'rara', 'si'),
+	(2, 'otra cosa', 2983, 'bastante rara', 'si'),
+	(3, 'cosa extra', 5364, 'muy rara', 'si'),
+	(4, 'otra cosa extra ', 12122, 'rarisima', 'si');
 
 -- Volcando estructura para tabla bddtpfinal.usuarios
 CREATE TABLE IF NOT EXISTS `usuarios` (
@@ -55,11 +60,12 @@ CREATE TABLE IF NOT EXISTS `usuarios` (
   `NomUsuario` varchar(50) NOT NULL,
   `Contraseña` varchar(50) NOT NULL,
   PRIMARY KEY (`IdUsuario`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
--- Volcando datos para la tabla bddtpfinal.usuarios: ~1 rows (aproximadamente)
+-- Volcando datos para la tabla bddtpfinal.usuarios: ~2 rows (aproximadamente)
 INSERT INTO `usuarios` (`IdUsuario`, `Nombre`, `Apellido`, `NomUsuario`, `Contraseña`) VALUES
-	(1, 'a', 'a', 'a', 'a');
+	(1, 'a', 'a', 'a', 'a'),
+	(2, 'b', 'b', 'b', 'b');
 
 -- Volcando estructura para tabla bddtpfinal.ventas
 CREATE TABLE IF NOT EXISTS `ventas` (
@@ -71,9 +77,15 @@ CREATE TABLE IF NOT EXISTS `ventas` (
   PRIMARY KEY (`ID`),
   KEY `IDCliente` (`IDCliente`),
   CONSTRAINT `IDCliente` FOREIGN KEY (`IDCliente`) REFERENCES `clientes` (`ID`) ON DELETE NO ACTION ON UPDATE NO ACTION
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
--- Volcando datos para la tabla bddtpfinal.ventas: ~0 rows (aproximadamente)
+-- Volcando datos para la tabla bddtpfinal.ventas: ~5 rows (aproximadamente)
+INSERT INTO `ventas` (`ID`, `IDCliente`, `Fecha`, `Total`, `Activo`) VALUES
+	(1, 2, '1234-12-12', 476532, 'si'),
+	(2, 2, '1222-01-21', 30405, 'si'),
+	(3, 3, '1000-01-22', 37820, 'si'),
+	(4, 2, '1111-01-01', 0, 'no'),
+	(5, 1, '0001-01-01', 0, 'no');
 
 -- Volcando estructura para tabla bddtpfinal.ventasitems
 CREATE TABLE IF NOT EXISTS `ventasitems` (
@@ -88,9 +100,16 @@ CREATE TABLE IF NOT EXISTS `ventasitems` (
   KEY `IDProducto` (`IDProducto`),
   CONSTRAINT `IDProducto` FOREIGN KEY (`IDProducto`) REFERENCES `productos` (`ID`) ON DELETE NO ACTION ON UPDATE NO ACTION,
   CONSTRAINT `IDVenta` FOREIGN KEY (`IDVenta`) REFERENCES `ventas` (`ID`) ON DELETE NO ACTION ON UPDATE NO ACTION
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
--- Volcando datos para la tabla bddtpfinal.ventasitems: ~0 rows (aproximadamente)
+-- Volcando datos para la tabla bddtpfinal.ventasitems: ~6 rows (aproximadamente)
+INSERT INTO `ventasitems` (`ID`, `IDVenta`, `IDProducto`, `PrecioUnitario`, `Cantidad`, `PrecioTotal`) VALUES
+	(1, 1, 1, 7564, 21, 158844),
+	(2, 1, 1, 7564, 21, 158844),
+	(3, 1, 1, 7564, 21, 158844),
+	(4, 2, 2, 2983, 3, 8949),
+	(5, 2, 3, 5364, 4, 21456),
+	(6, 3, 1, 7564, 5, 37820);
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

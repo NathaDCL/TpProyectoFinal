@@ -28,6 +28,8 @@ Partial Class SeccionProductos
         btnPBaja = New Button()
         btnPAlta = New Button()
         dgvMProductos = New DataGridView()
+        btnPCategoria = New Button()
+        btnPBCliente = New Button()
         CType(dgvMProductos, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
@@ -84,11 +86,31 @@ Partial Class SeccionProductos
         dgvMProductos.Size = New Size(541, 214)
         dgvMProductos.TabIndex = 12
         ' 
+        ' btnPCategoria
+        ' 
+        btnPCategoria.Location = New Point(530, 380)
+        btnPCategoria.Name = "btnPCategoria"
+        btnPCategoria.Size = New Size(143, 37)
+        btnPCategoria.TabIndex = 13
+        btnPCategoria.Text = "Busqueda por categoria"
+        btnPCategoria.UseVisualStyleBackColor = True
+        ' 
+        ' btnPBCliente
+        ' 
+        btnPBCliente.Location = New Point(121, 380)
+        btnPBCliente.Name = "btnPBCliente"
+        btnPBCliente.Size = New Size(129, 37)
+        btnPBCliente.TabIndex = 14
+        btnPBCliente.Text = "Busqueda por cliente"
+        btnPBCliente.UseVisualStyleBackColor = True
+        ' 
         ' SeccionProductos
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(800, 450)
+        Controls.Add(btnPBCliente)
+        Controls.Add(btnPCategoria)
         Controls.Add(dgvMProductos)
         Controls.Add(btnPLobby)
         Controls.Add(btnPRefrescar)
@@ -107,4 +129,6 @@ Partial Class SeccionProductos
     Friend WithEvents btnPBaja As Button
     Friend WithEvents btnPAlta As Button
     Friend WithEvents dgvMProductos As DataGridView
+    Friend WithEvents btnPCategoria As Button
+    Friend WithEvents btnPBCliente As Button
 End Class

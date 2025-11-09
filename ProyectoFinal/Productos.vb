@@ -89,12 +89,74 @@ Public Class Productos
         Me.Categoria = Categoria
 
     End Sub
+    Public Sub BusquedaCliente(dgv As DataGridView)
+        Dim con As New Conexion
+        Try
+            con.Encendido()
+
+            Dim IdCliente As Integer = Val(InputBox("Ingrese ID cliente"))
+
+            If IdCliente <= 0 Then
+                MsgBox("Ingrese valores validos")
+                Exit Sub
+            End If
+
+            Dim consulta As String = "SELECT DISTINCT p.*, COUNT(vi.IDProducto) AS Cantidad FROM productos p INNER JOIN ventasitems vi ON p.ID = vi.IDProducto INNER JOIN ventas v ON vi.IDVenta = v.ID WHERE v.IDCliente = @IDCliente AND p.Activo='si' GROUP BY p.ID, p.Nombre, p.Precio"
+
+            Dim comando As New MySqlCommand(consulta, con.ObtenerConexion())
+            comando.Parameters.AddWithValue("@IDCliente", IdCliente)
+
+            Dim adaptador As New MySqlDataAdapter(comando)
+            Dim tabla As New DataTable()
+            adaptador.Fill(tabla)
+
+            dgv.DataSource = tabla
+
+            If tabla.Rows.Count = 0 Then
+                MsgBox("Cliente inexistente o sin compras")
+            End If
+
+        Catch ex As Exception
+            MsgBox("Error: " & ex.Message)
+        Finally
+            con.Apagado()
+        End Try
+
+    End Sub
+    Public Sub BusquedaCategoria(dgv As DataGridView)
+        Dim con As New Conexion
+        Try
+            con.Encendido()
+            Dim Categoria As String = InputBox("Ingrese categoria")
+            If (Categoria = "") Then
+                MsgBox("Ingrese valores validos")
+            Else
+
+                Dim consulta As String = "SELECT * FROM productos WHERE Categoria = @Categoria AND Activo = 'si'"
+                Dim comando As New MySqlCommand(consulta, con.ObtenerConexion())
+                comando.Parameters.AddWithValue("@Categoria", Categoria)
+                Dim adaptador As New MySqlDataAdapter(comando)
+
+                Dim tabla As New DataTable()
+                adaptador.Fill(tabla)
+                dgv.DataSource = tabla
+
+            End If
+
+        Catch ex As Exception
+            MsgBox("Error: " & ex.Message)
+
+        Finally
+            con.Apagado()
+        End Try
+
+    End Sub
     Public Overrides Sub Carga(dgv As DataGridView)
         Dim con As New Conexion
         Try
 
             con.Encendido()
-            Dim consulta As String = "SELECT * FROM productos"
+            Dim consulta As String = "SELECT * FROM productos WHERE Activo = 'si'"
             Dim adaptador As New MySqlDataAdapter(consulta, con.ObtenerConexion())
             Dim tabla As New DataTable()
             adaptador.Fill(tabla)

@@ -13,5 +13,7 @@
     Private Sub btnVICancelar_Click(sender As Object, e As EventArgs) Handles btnVICancelar.Click
         Me.Hide()
         SeccionVentas.Show()
+        txtVIIdproducto.Text = ""
+        txtVICantidad.Text = ""
     End Sub
 End Class

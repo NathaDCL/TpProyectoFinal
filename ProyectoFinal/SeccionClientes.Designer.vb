@@ -28,6 +28,9 @@ Partial Class SeccionClientes
         dgvMClientes = New DataGridView()
         btnCRefrescar = New Button()
         btnCLobby = New Button()
+        btnCTotal = New Button()
+        rbCAsc = New RadioButton()
+        rbCDsc = New RadioButton()
         CType(dgvMClientes, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
@@ -84,11 +87,45 @@ Partial Class SeccionClientes
         btnCLobby.Text = "Lobby"
         btnCLobby.UseVisualStyleBackColor = True
         ' 
+        ' btnCTotal
+        ' 
+        btnCTotal.Location = New Point(503, 391)
+        btnCTotal.Name = "btnCTotal"
+        btnCTotal.Size = New Size(134, 37)
+        btnCTotal.TabIndex = 8
+        btnCTotal.Text = "Busqueda > total"
+        btnCTotal.UseVisualStyleBackColor = True
+        ' 
+        ' rbCAsc
+        ' 
+        rbCAsc.AutoSize = True
+        rbCAsc.Location = New Point(12, 134)
+        rbCAsc.Name = "rbCAsc"
+        rbCAsc.Size = New Size(87, 19)
+        rbCAsc.TabIndex = 9
+        rbCAsc.TabStop = True
+        rbCAsc.Text = "Ascendente"
+        rbCAsc.UseVisualStyleBackColor = True
+        ' 
+        ' rbCDsc
+        ' 
+        rbCDsc.AutoSize = True
+        rbCDsc.Location = New Point(12, 173)
+        rbCDsc.Name = "rbCDsc"
+        rbCDsc.Size = New Size(96, 19)
+        rbCDsc.TabIndex = 10
+        rbCDsc.TabStop = True
+        rbCDsc.Text = "Descendiente"
+        rbCDsc.UseVisualStyleBackColor = True
+        ' 
         ' SeccionClientes
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(800, 450)
+        Controls.Add(rbCDsc)
+        Controls.Add(rbCAsc)
+        Controls.Add(btnCTotal)
         Controls.Add(btnCLobby)
         Controls.Add(btnCRefrescar)
         Controls.Add(dgvMClientes)
@@ -99,6 +136,7 @@ Partial Class SeccionClientes
         Text = "SeccionClientes"
         CType(dgvMClientes, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
+        PerformLayout()
     End Sub
 
     Friend WithEvents btnCAlta As Button
@@ -107,4 +145,7 @@ Partial Class SeccionClientes
     Friend WithEvents dgvMClientes As DataGridView
     Friend WithEvents btnCRefrescar As Button
     Friend WithEvents btnCLobby As Button
+    Friend WithEvents btnCTotal As Button
+    Friend WithEvents rbCAsc As RadioButton
+    Friend WithEvents rbCDsc As RadioButton
 End Class

@@ -29,6 +29,7 @@ Partial Class HistorialVentas
         txtHVFechados = New TextBox()
         Label1 = New Label()
         Label2 = New Label()
+        btnVRefrescar = New Button()
         CType(dgvMVentas, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
@@ -67,7 +68,7 @@ Partial Class HistorialVentas
         ' 
         ' txtHVFechados
         ' 
-        txtHVFechados.Location = New Point(485, 317)
+        txtHVFechados.Location = New Point(567, 317)
         txtHVFechados.Name = "txtHVFechados"
         txtHVFechados.Size = New Size(100, 23)
         txtHVFechados.TabIndex = 16
@@ -75,26 +76,36 @@ Partial Class HistorialVentas
         ' Label1
         ' 
         Label1.AutoSize = True
-        Label1.Location = New Point(112, 320)
+        Label1.Location = New Point(40, 320)
         Label1.Name = "Label1"
-        Label1.Size = New Size(70, 15)
+        Label1.Size = New Size(158, 15)
         Label1.TabIndex = 17
-        Label1.Text = "Fecha inicio"
+        Label1.Text = "Fecha inicio(AAAA-MM-DD)"
         ' 
         ' Label2
         ' 
         Label2.AutoSize = True
         Label2.Location = New Point(418, 320)
         Label2.Name = "Label2"
-        Label2.Size = New Size(55, 15)
+        Label2.Size = New Size(143, 15)
         Label2.TabIndex = 18
-        Label2.Text = "Fecha fin"
+        Label2.Text = "Fecha fin(AAAA-MM-DD)"
+        ' 
+        ' btnVRefrescar
+        ' 
+        btnVRefrescar.Location = New Point(75, 376)
+        btnVRefrescar.Name = "btnVRefrescar"
+        btnVRefrescar.Size = New Size(107, 45)
+        btnVRefrescar.TabIndex = 19
+        btnVRefrescar.Text = "Refrescar"
+        btnVRefrescar.UseVisualStyleBackColor = True
         ' 
         ' HistorialVentas
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(800, 450)
+        Controls.Add(btnVRefrescar)
         Controls.Add(Label2)
         Controls.Add(Label1)
         Controls.Add(txtHVFechados)
@@ -116,4 +127,5 @@ Partial Class HistorialVentas
     Friend WithEvents txtHVFechados As TextBox
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
+    Friend WithEvents btnVRefrescar As Button
 End Class

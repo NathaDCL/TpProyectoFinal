@@ -3,36 +3,88 @@
   "WorkspaceRootPath": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|c:\\users\\estudiante\\desktop\\tpproyectofinal\\proyectofinal\\ventas.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|solutionrelative:ventas.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|c:\\users\\estudiante\\desktop\\tpproyectofinal\\proyectofinal\\productos.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|solutionrelative:productos.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|c:\\users\\estudiante\\desktop\\tpproyectofinal\\proyectofinal\\altaventas.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|solutionrelative:altaventas.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|c:\\users\\estudiante\\desktop\\tpproyectofinal\\proyectofinal\\altaventasitems.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|solutionrelative:altaventasitems.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|c:\\users\\estudiante\\desktop\\tpproyectofinal\\proyectofinal\\historialventas.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|solutionrelative:historialventas.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|c:\\users\\estudiante\\desktop\\tpproyectofinal\\proyectofinal\\altaventasitems.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|solutionrelative:altaventasitems.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+      "AbsoluteMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|c:\\users\\estudiante\\desktop\\tpproyectofinal\\proyectofinal\\ventas.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|solutionrelative:ventas.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|c:\\users\\estudiante\\desktop\\tpproyectofinal\\proyectofinal\\altaproductos.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|solutionrelative:altaproductos.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|c:\\users\\estudiante\\desktop\\tpproyectofinal\\proyectofinal\\altaclientes.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|solutionrelative:altaclientes.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|c:\\users\\estudiante\\desktop\\tpproyectofinal\\proyectofinal\\login.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|solutionrelative:login.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|c:\\users\\estudiante\\desktop\\tpproyectofinal\\proyectofinal\\login.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|solutionrelative:login.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|c:\\users\\estudiante\\desktop\\tpproyectofinal\\proyectofinal\\registrousuario.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|solutionrelative:registrousuario.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|c:\\users\\estudiante\\desktop\\tpproyectofinal\\proyectofinal\\registrousuario.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|solutionrelative:registrousuario.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|c:\\users\\estudiante\\desktop\\tpproyectofinal\\proyectofinal\\historialventas.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|solutionrelative:historialventas.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|c:\\users\\estudiante\\desktop\\tpproyectofinal\\proyectofinal\\altaventas.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|solutionrelative:altaventas.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|c:\\users\\estudiante\\desktop\\tpproyectofinal\\proyectofinal\\seccionventas.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|solutionrelative:seccionventas.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|c:\\users\\estudiante\\desktop\\tpproyectofinal\\proyectofinal\\clientes.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|solutionrelative:clientes.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|c:\\users\\estudiante\\desktop\\tpproyectofinal\\proyectofinal\\productos.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|solutionrelative:productos.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|c:\\users\\estudiante\\desktop\\tpproyectofinal\\proyectofinal\\seccionproductos.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|solutionrelative:seccionproductos.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|c:\\users\\estudiante\\desktop\\tpproyectofinal\\proyectofinal\\seccionproductos.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|solutionrelative:seccionproductos.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|c:\\users\\estudiante\\desktop\\tpproyectofinal\\proyectofinal\\conexion.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|solutionrelative:conexion.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|c:\\users\\estudiante\\desktop\\tpproyectofinal\\proyectofinal\\seccionclientes.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|solutionrelative:seccionclientes.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|c:\\users\\estudiante\\desktop\\tpproyectofinal\\proyectofinal\\seccionclientes.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|solutionrelative:seccionclientes.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|c:\\users\\estudiante\\desktop\\tpproyectofinal\\proyectofinal\\altaventasitems.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|solutionrelative:altaventasitems.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|c:\\users\\estudiante\\desktop\\tpproyectofinal\\proyectofinal\\altaclientes.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
@@ -43,24 +95,8 @@
       "RelativeMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|solutionrelative:ventasitems.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|c:\\users\\estudiante\\desktop\\tpproyectofinal\\proyectofinal\\clientes.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|solutionrelative:clientes.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|c:\\users\\estudiante\\desktop\\tpproyectofinal\\proyectofinal\\seccionproductos.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|solutionrelative:seccionproductos.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|c:\\users\\estudiante\\desktop\\tpproyectofinal\\proyectofinal\\altaproductos.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|solutionrelative:altaproductos.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|c:\\users\\estudiante\\desktop\\tpproyectofinal\\proyectofinal\\seccionventas.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|solutionrelative:seccionventas.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|c:\\users\\estudiante\\desktop\\tpproyectofinal\\proyectofinal\\altaventasitems.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|solutionrelative:altaventasitems.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|c:\\users\\estudiante\\desktop\\tpproyectofinal\\proyectofinal\\usuario.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
@@ -69,22 +105,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|c:\\users\\estudiante\\desktop\\tpproyectofinal\\proyectofinal\\moduloventas.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|solutionrelative:moduloventas.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|c:\\users\\estudiante\\desktop\\tpproyectofinal\\proyectofinal\\altaventas.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|solutionrelative:altaventas.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|c:\\users\\estudiante\\desktop\\tpproyectofinal\\proyectofinal\\altaclientes.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|solutionrelative:altaclientes.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|c:\\users\\estudiante\\desktop\\tpproyectofinal\\proyectofinal\\seccionclientes.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|solutionrelative:seccionclientes.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|c:\\users\\estudiante\\desktop\\tpproyectofinal\\proyectofinal\\seccionclientes.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|solutionrelative:seccionclientes.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|c:\\users\\estudiante\\desktop\\tpproyectofinal\\proyectofinal\\lobby.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
@@ -97,26 +117,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|c:\\users\\estudiante\\desktop\\tpproyectofinal\\proyectofinal\\altaproductos.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|solutionrelative:altaproductos.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|c:\\users\\estudiante\\desktop\\tpproyectofinal\\proyectofinal\\conexion.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|solutionrelative:conexion.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|c:\\users\\estudiante\\desktop\\tpproyectofinal\\proyectofinal\\login.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|solutionrelative:login.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|c:\\users\\estudiante\\desktop\\tpproyectofinal\\proyectofinal\\registrousuario.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|solutionrelative:registrousuario.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|c:\\users\\estudiante\\desktop\\tpproyectofinal\\proyectofinal\\registrousuario.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|solutionrelative:registrousuario.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|c:\\users\\estudiante\\desktop\\tpproyectofinal\\proyectofinal\\login.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|solutionrelative:login.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9EFBF83C-1988-4F17-9E2F-2AC2A431A003}|ProyectoFinal.vbproj|c:\\users\\estudiante\\desktop\\tpproyectofinal\\proyectofinal\\proyectofinal.vbproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
@@ -138,7 +138,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -146,63 +146,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "HistorialVentas.vb",
-              "DocumentMoniker": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\HistorialVentas.vb",
-              "RelativeDocumentMoniker": "HistorialVentas.vb",
-              "ToolTip": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\HistorialVentas.vb",
-              "RelativeToolTip": "HistorialVentas.vb",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBIAAAALAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "LogIn.vb",
+              "DocumentMoniker": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\LogIn.vb",
+              "RelativeDocumentMoniker": "LogIn.vb",
+              "ToolTip": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\LogIn.vb",
+              "RelativeToolTip": "LogIn.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA8AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-11-07T06:09:31.101Z",
+              "WhenOpened": "2025-11-02T23:04:39.369Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "HistorialVentas.vb [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\HistorialVentas.vb",
-              "RelativeDocumentMoniker": "HistorialVentas.vb",
-              "ToolTip": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\HistorialVentas.vb [Dise\u00F1o]",
-              "RelativeToolTip": "HistorialVentas.vb [Dise\u00F1o]",
+              "Title": "AltaClientes.vb",
+              "DocumentMoniker": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\AltaClientes.vb",
+              "RelativeDocumentMoniker": "AltaClientes.vb",
+              "ToolTip": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\AltaClientes.vb",
+              "RelativeToolTip": "AltaClientes.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAA6wBEAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-11-07T06:08:06.063Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Ventas.vb",
-              "DocumentMoniker": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\Ventas.vb",
-              "RelativeDocumentMoniker": "Ventas.vb",
-              "ToolTip": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\Ventas.vb",
-              "RelativeToolTip": "Ventas.vb",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAcwFEAAACYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-10-29T22:30:22.695Z",
+              "WhenOpened": "2025-11-05T00:37:04.691Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "AltaVentasItems.vb [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\AltaVentasItems.vb",
-              "RelativeDocumentMoniker": "AltaVentasItems.vb",
-              "ToolTip": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\AltaVentasItems.vb [Dise\u00F1o]",
-              "RelativeToolTip": "AltaVentasItems.vb [Dise\u00F1o]",
+              "Title": "AltaProductos.vb",
+              "DocumentMoniker": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\AltaProductos.vb",
+              "RelativeDocumentMoniker": "AltaProductos.vb",
+              "ToolTip": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\AltaProductos.vb",
+              "RelativeToolTip": "AltaProductos.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-11-06T07:51:23.305Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-11-05T08:03:46.317Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "AltaVentas.vb",
               "DocumentMoniker": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\AltaVentas.vb",
               "RelativeDocumentMoniker": "AltaVentas.vb",
               "ToolTip": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\AltaVentas.vb",
               "RelativeToolTip": "AltaVentas.vb",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAYwAoAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA7wBUAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2025-11-06T06:15:25.52Z",
               "EditorCaption": ""
@@ -210,280 +199,70 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Productos.vb",
-              "DocumentMoniker": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\Productos.vb",
-              "RelativeDocumentMoniker": "Productos.vb",
-              "ToolTip": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\Productos.vb",
-              "RelativeToolTip": "Productos.vb",
-              "ViewState": "AgIAAFkAAAAAAAAAAAAuwIUAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-10-29T22:01:43.504Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SeccionVentas.vb [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\SeccionVentas.vb",
-              "RelativeDocumentMoniker": "SeccionVentas.vb",
-              "ToolTip": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\SeccionVentas.vb [Dise\u00F1o]",
-              "RelativeToolTip": "SeccionVentas.vb [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-11-06T04:22:50.353Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "SeccionProductos.vb",
-              "DocumentMoniker": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\SeccionProductos.vb",
-              "RelativeDocumentMoniker": "SeccionProductos.vb",
-              "ToolTip": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\SeccionProductos.vb",
-              "RelativeToolTip": "SeccionProductos.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-11-05T07:41:31.104Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AltaClientes.vb [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\AltaClientes.vb",
-              "RelativeDocumentMoniker": "AltaClientes.vb",
-              "ToolTip": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\AltaClientes.vb [Dise\u00F1o]",
-              "RelativeToolTip": "AltaClientes.vb [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-11-05T00:34:18.492Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "VentasItems.vb",
-              "DocumentMoniker": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\VentasItems.vb",
-              "RelativeDocumentMoniker": "VentasItems.vb",
-              "ToolTip": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\VentasItems.vb",
-              "RelativeToolTip": "VentasItems.vb",
-              "ViewState": "AgIAAJIAAAAAAAAAAAAswKMAAABjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-10-29T22:33:07.055Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Clientes.vb",
-              "DocumentMoniker": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\Clientes.vb",
-              "RelativeDocumentMoniker": "Clientes.vb",
-              "ToolTip": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\Clientes.vb",
-              "RelativeToolTip": "Clientes.vb",
-              "ViewState": "AgIAAE4AAAAAAAAAAAA4wGcAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-10-29T22:01:28.143Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "SeccionProductos.vb [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\SeccionProductos.vb",
-              "RelativeDocumentMoniker": "SeccionProductos.vb",
-              "ToolTip": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\SeccionProductos.vb [Dise\u00F1o]",
-              "RelativeToolTip": "SeccionProductos.vb [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-11-05T07:38:38.986Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AltaProductos.vb",
-              "DocumentMoniker": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\AltaProductos.vb",
-              "RelativeDocumentMoniker": "AltaProductos.vb",
-              "ToolTip": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\AltaProductos.vb",
-              "RelativeToolTip": "AltaProductos.vb",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAowBIAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-11-05T08:03:46.317Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
               "Title": "AltaVentasItems.vb",
               "DocumentMoniker": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\AltaVentasItems.vb",
               "RelativeDocumentMoniker": "AltaVentasItems.vb",
               "ToolTip": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\AltaVentasItems.vb",
               "RelativeToolTip": "AltaVentasItems.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABCAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2025-11-06T08:12:26.429Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "SeccionVentas.vb",
-              "DocumentMoniker": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\SeccionVentas.vb",
-              "RelativeDocumentMoniker": "SeccionVentas.vb",
-              "ToolTip": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\SeccionVentas.vb",
-              "RelativeToolTip": "SeccionVentas.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAA8wA0AAAAeAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "HistorialVentas.vb",
+              "DocumentMoniker": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\HistorialVentas.vb",
+              "RelativeDocumentMoniker": "HistorialVentas.vb",
+              "ToolTip": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\HistorialVentas.vb",
+              "RelativeToolTip": "HistorialVentas.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-11-06T05:01:19.057Z",
+              "WhenOpened": "2025-11-07T06:09:31.101Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Usuario.vb",
-              "DocumentMoniker": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\Usuario.vb",
-              "RelativeDocumentMoniker": "Usuario.vb",
-              "ToolTip": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\Usuario.vb",
-              "RelativeToolTip": "Usuario.vb",
-              "ViewState": "AgIAAIgAAAAAAAAAAAAhwJEAAAAcAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Ventas.vb",
+              "DocumentMoniker": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\Ventas.vb",
+              "RelativeDocumentMoniker": "Ventas.vb",
+              "ToolTip": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\Ventas.vb",
+              "RelativeToolTip": "Ventas.vb",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowFcAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-10-31T21:14:49.032Z",
+              "WhenOpened": "2025-10-29T22:30:22.695Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ModuloVentas.vb",
-              "DocumentMoniker": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\ModuloVentas.vb",
-              "RelativeDocumentMoniker": "ModuloVentas.vb",
-              "ToolTip": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\ModuloVentas.vb",
-              "RelativeToolTip": "ModuloVentas.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-11-06T10:05:33.508Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "AltaVentas.vb [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\AltaVentas.vb",
-              "RelativeDocumentMoniker": "AltaVentas.vb",
-              "ToolTip": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\AltaVentas.vb [Dise\u00F1o]",
-              "RelativeToolTip": "AltaVentas.vb [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-11-06T05:52:31.988Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "SeccionClientes.vb",
-              "DocumentMoniker": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\SeccionClientes.vb",
-              "RelativeDocumentMoniker": "SeccionClientes.vb",
-              "ToolTip": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\SeccionClientes.vb",
-              "RelativeToolTip": "SeccionClientes.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-11-05T00:33:58.144Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "AltaClientes.vb",
-              "DocumentMoniker": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\AltaClientes.vb",
-              "RelativeDocumentMoniker": "AltaClientes.vb",
-              "ToolTip": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\AltaClientes.vb",
-              "RelativeToolTip": "AltaClientes.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-11-05T00:37:04.691Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "SeccionClientes.vb [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\SeccionClientes.vb",
-              "RelativeDocumentMoniker": "SeccionClientes.vb",
-              "ToolTip": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\SeccionClientes.vb [Dise\u00F1o]",
-              "RelativeToolTip": "SeccionClientes.vb [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-11-05T00:29:46.248Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "AltaProductos.vb [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\AltaProductos.vb",
-              "RelativeDocumentMoniker": "AltaProductos.vb",
-              "ToolTip": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\AltaProductos.vb [Dise\u00F1o]",
-              "RelativeToolTip": "AltaProductos.vb [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-11-05T07:59:28.435Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Lobby.vb",
-              "DocumentMoniker": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\Lobby.vb",
-              "RelativeDocumentMoniker": "Lobby.vb",
-              "ToolTip": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\Lobby.vb",
-              "RelativeToolTip": "Lobby.vb",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAywAwAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-11-05T00:25:59.043Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Lobby.vb [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\Lobby.vb",
-              "RelativeDocumentMoniker": "Lobby.vb",
-              "ToolTip": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\Lobby.vb [Dise\u00F1o]",
-              "RelativeToolTip": "Lobby.vb [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-11-03T03:22:47.465Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Conexion.vb",
-              "DocumentMoniker": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\Conexion.vb",
-              "RelativeDocumentMoniker": "Conexion.vb",
-              "ToolTip": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\Conexion.vb",
-              "RelativeToolTip": "Conexion.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-10-31T22:00:58.459Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "LogIn.vb",
+              "DocumentIndex": 7,
+              "Title": "LogIn.vb [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\LogIn.vb",
               "RelativeDocumentMoniker": "LogIn.vb",
-              "ToolTip": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\LogIn.vb",
-              "RelativeToolTip": "LogIn.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAfAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\LogIn.vb [Dise\u00F1o]",
+              "RelativeToolTip": "LogIn.vb [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-11-02T23:04:39.369Z"
+              "WhenOpened": "2025-11-02T21:48:17.122Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 8,
               "Title": "RegistroUsuario.vb",
               "DocumentMoniker": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\RegistroUsuario.vb",
               "RelativeDocumentMoniker": "RegistroUsuario.vb",
               "ToolTip": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\RegistroUsuario.vb",
               "RelativeToolTip": "RegistroUsuario.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-11-03T00:18:08.592Z"
+              "WhenOpened": "2025-11-03T00:18:08.592Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 9,
               "Title": "RegistroUsuario.vb [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\RegistroUsuario.vb",
               "RelativeDocumentMoniker": "RegistroUsuario.vb",
@@ -495,14 +274,235 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "LogIn.vb [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\LogIn.vb",
-              "RelativeDocumentMoniker": "LogIn.vb",
-              "ToolTip": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\LogIn.vb [Dise\u00F1o]",
-              "RelativeToolTip": "LogIn.vb [Dise\u00F1o]",
+              "DocumentIndex": 10,
+              "Title": "HistorialVentas.vb [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\HistorialVentas.vb",
+              "RelativeDocumentMoniker": "HistorialVentas.vb",
+              "ToolTip": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\HistorialVentas.vb [Dise\u00F1o]",
+              "RelativeToolTip": "HistorialVentas.vb [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-11-02T21:48:17.122Z",
+              "WhenOpened": "2025-11-07T06:08:06.063Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AltaVentas.vb [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\AltaVentas.vb",
+              "RelativeDocumentMoniker": "AltaVentas.vb",
+              "ToolTip": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\AltaVentas.vb [Dise\u00F1o]",
+              "RelativeToolTip": "AltaVentas.vb [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-11-06T05:52:31.988Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SeccionVentas.vb [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\SeccionVentas.vb",
+              "RelativeDocumentMoniker": "SeccionVentas.vb",
+              "ToolTip": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\SeccionVentas.vb [Dise\u00F1o]",
+              "RelativeToolTip": "SeccionVentas.vb [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-11-06T04:22:50.353Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Clientes.vb",
+              "DocumentMoniker": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\Clientes.vb",
+              "RelativeDocumentMoniker": "Clientes.vb",
+              "ToolTip": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\Clientes.vb",
+              "RelativeToolTip": "Clientes.vb",
+              "ViewState": "AgIAAIkAAAAAAAAAAAAuwHAAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-10-29T22:01:28.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Productos.vb",
+              "DocumentMoniker": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\Productos.vb",
+              "RelativeDocumentMoniker": "Productos.vb",
+              "ToolTip": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\Productos.vb",
+              "RelativeToolTip": "Productos.vb",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAcwGcAAAD5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-10-29T22:01:43.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SeccionProductos.vb",
+              "DocumentMoniker": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\SeccionProductos.vb",
+              "RelativeDocumentMoniker": "SeccionProductos.vb",
+              "ToolTip": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\SeccionProductos.vb",
+              "RelativeToolTip": "SeccionProductos.vb",
+              "ViewState": "AgIAABUAAAAAAAAAAIA3wCMAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-11-05T07:41:31.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SeccionProductos.vb [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\SeccionProductos.vb",
+              "RelativeDocumentMoniker": "SeccionProductos.vb",
+              "ToolTip": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\SeccionProductos.vb [Dise\u00F1o]",
+              "RelativeToolTip": "SeccionProductos.vb [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-11-05T07:38:38.986Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Conexion.vb",
+              "DocumentMoniker": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\Conexion.vb",
+              "RelativeDocumentMoniker": "Conexion.vb",
+              "ToolTip": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\Conexion.vb",
+              "RelativeToolTip": "Conexion.vb",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAwwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-10-31T22:00:58.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SeccionClientes.vb",
+              "DocumentMoniker": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\SeccionClientes.vb",
+              "RelativeDocumentMoniker": "SeccionClientes.vb",
+              "ToolTip": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\SeccionClientes.vb",
+              "RelativeToolTip": "SeccionClientes.vb",
+              "ViewState": "AgIAACAAAAAAAAAAAIA7wCkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-11-05T00:33:58.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SeccionClientes.vb [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\SeccionClientes.vb",
+              "RelativeDocumentMoniker": "SeccionClientes.vb",
+              "ToolTip": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\SeccionClientes.vb [Dise\u00F1o]",
+              "RelativeToolTip": "SeccionClientes.vb [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-11-05T00:29:46.248Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AltaVentasItems.vb [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\AltaVentasItems.vb",
+              "RelativeDocumentMoniker": "AltaVentasItems.vb",
+              "ToolTip": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\AltaVentasItems.vb [Dise\u00F1o]",
+              "RelativeToolTip": "AltaVentasItems.vb [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-11-06T07:51:23.305Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AltaClientes.vb [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\AltaClientes.vb",
+              "RelativeDocumentMoniker": "AltaClientes.vb",
+              "ToolTip": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\AltaClientes.vb [Dise\u00F1o]",
+              "RelativeToolTip": "AltaClientes.vb [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-11-05T00:34:18.492Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "VentasItems.vb",
+              "DocumentMoniker": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\VentasItems.vb",
+              "RelativeDocumentMoniker": "VentasItems.vb",
+              "ToolTip": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\VentasItems.vb",
+              "RelativeToolTip": "VentasItems.vb",
+              "ViewState": "AgIAAJIAAAAAAAAAAAAswKMAAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-10-29T22:33:07.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "SeccionVentas.vb",
+              "DocumentMoniker": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\SeccionVentas.vb",
+              "RelativeDocumentMoniker": "SeccionVentas.vb",
+              "ToolTip": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\SeccionVentas.vb",
+              "RelativeToolTip": "SeccionVentas.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAA8wA0AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-11-06T05:01:19.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Usuario.vb",
+              "DocumentMoniker": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\Usuario.vb",
+              "RelativeDocumentMoniker": "Usuario.vb",
+              "ToolTip": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\Usuario.vb",
+              "RelativeToolTip": "Usuario.vb",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAhwJEAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-10-31T21:14:49.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ModuloVentas.vb",
+              "DocumentMoniker": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\ModuloVentas.vb",
+              "RelativeDocumentMoniker": "ModuloVentas.vb",
+              "ToolTip": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\ModuloVentas.vb",
+              "RelativeToolTip": "ModuloVentas.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-11-06T10:05:33.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AltaProductos.vb [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\AltaProductos.vb",
+              "RelativeDocumentMoniker": "AltaProductos.vb",
+              "ToolTip": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\AltaProductos.vb [Dise\u00F1o]",
+              "RelativeToolTip": "AltaProductos.vb [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-11-05T07:59:28.435Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Lobby.vb",
+              "DocumentMoniker": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\Lobby.vb",
+              "RelativeDocumentMoniker": "Lobby.vb",
+              "ToolTip": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\Lobby.vb",
+              "RelativeToolTip": "Lobby.vb",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAywAwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-11-05T00:25:59.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Lobby.vb [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\Lobby.vb",
+              "RelativeDocumentMoniker": "Lobby.vb",
+              "ToolTip": "C:\\Users\\Estudiante\\Desktop\\TpProyectoFinal\\ProyectoFinal\\Lobby.vb [Dise\u00F1o]",
+              "RelativeToolTip": "Lobby.vb [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-11-03T03:22:47.465Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {

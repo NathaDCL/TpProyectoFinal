@@ -79,7 +79,7 @@ Public Class Ventas
         Try
             con.Encendido()
 
-            Dim consulta As String = "SELECT ID, IDCliente, Fecha, Total FROM ventas WHERE (Fecha BETWEEN @FechaInicio AND @FechaFin) AND Activo = 'si' ORDER BY Fecha"
+            Dim consulta As String = "SELECT ID, IDCliente, Fecha, Total FROM ventas WHERE (Fecha BETWEEN @FechaInicio AND @FechaFin) AND Activo = 'si'"
 
             Dim adaptador As New MySqlDataAdapter(consulta, con.ObtenerConexion())
             adaptador.SelectCommand.Parameters.AddWithValue("@FechaInicio", Fecha1)
