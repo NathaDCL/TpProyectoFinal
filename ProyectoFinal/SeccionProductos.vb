@@ -35,4 +35,8 @@ Public Class SeccionProductos
     Private Sub btnPBCliente_Click(sender As Object, e As EventArgs) Handles btnPBCliente.Click
         producto.BusquedaCliente(dgvMProductos)
     End Sub
+
+    Private Sub dgvMProductos_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles dgvMProductos.CellContentClick
+
+    End Sub
 End Class

@@ -30,17 +30,24 @@ Partial Class HistorialVentas
         Label1 = New Label()
         Label2 = New Label()
         btnVRefrescar = New Button()
+        Panel1 = New Panel()
+        Label9 = New Label()
+        Label3 = New Label()
         CType(dgvMVentas, ComponentModel.ISupportInitialize).BeginInit()
+        Panel1.SuspendLayout()
         SuspendLayout()
         ' 
         ' btnVFechas
         ' 
-        btnVFechas.Location = New Point(324, 376)
+        btnVFechas.BackColor = Color.SteelBlue
+        btnVFechas.FlatStyle = FlatStyle.Popup
+        btnVFechas.Font = New Font("Elephant", 11.9999981F, FontStyle.Bold)
+        btnVFechas.Location = New Point(317, 372)
         btnVFechas.Name = "btnVFechas"
-        btnVFechas.Size = New Size(107, 45)
+        btnVFechas.Size = New Size(155, 62)
         btnVFechas.TabIndex = 3
         btnVFechas.Text = "Búsqueda entre fechas"
-        btnVFechas.UseVisualStyleBackColor = True
+        btnVFechas.UseVisualStyleBackColor = False
         ' 
         ' dgvMVentas
         ' 
@@ -52,59 +59,105 @@ Partial Class HistorialVentas
         ' 
         ' btnHVCancelar
         ' 
-        btnHVCancelar.Location = New Point(634, 385)
+        btnHVCancelar.BackColor = Color.SteelBlue
+        btnHVCancelar.FlatStyle = FlatStyle.Popup
+        btnHVCancelar.Font = New Font("Elephant", 11.9999981F, FontStyle.Bold)
+        btnHVCancelar.Location = New Point(62, 381)
         btnHVCancelar.Name = "btnHVCancelar"
-        btnHVCancelar.Size = New Size(80, 36)
+        btnHVCancelar.Size = New Size(149, 45)
         btnHVCancelar.TabIndex = 14
         btnHVCancelar.Text = "Salir"
-        btnHVCancelar.UseVisualStyleBackColor = True
+        btnHVCancelar.UseVisualStyleBackColor = False
         ' 
         ' txtHVFechauno
         ' 
-        txtHVFechauno.Location = New Point(204, 317)
+        txtHVFechauno.Font = New Font("Elephant", 8.999999F)
+        txtHVFechauno.Location = New Point(634, 318)
         txtHVFechauno.Name = "txtHVFechauno"
-        txtHVFechauno.Size = New Size(100, 23)
+        txtHVFechauno.Size = New Size(153, 23)
         txtHVFechauno.TabIndex = 15
         ' 
         ' txtHVFechados
         ' 
-        txtHVFechados.Location = New Point(567, 317)
+        txtHVFechados.Font = New Font("Elephant", 8.999999F)
+        txtHVFechados.Location = New Point(249, 317)
         txtHVFechados.Name = "txtHVFechados"
-        txtHVFechados.Size = New Size(100, 23)
+        txtHVFechados.Size = New Size(153, 23)
         txtHVFechados.TabIndex = 16
         ' 
         ' Label1
         ' 
         Label1.AutoSize = True
-        Label1.Location = New Point(40, 320)
+        Label1.Font = New Font("Elephant", 11.9999981F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Label1.Location = New Point(12, 319)
         Label1.Name = "Label1"
-        Label1.Size = New Size(158, 15)
+        Label1.Size = New Size(240, 21)
         Label1.TabIndex = 17
         Label1.Text = "Fecha inicio(AAAA-MM-DD)"
         ' 
         ' Label2
         ' 
         Label2.AutoSize = True
+        Label2.Font = New Font("Elephant", 11.9999981F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label2.Location = New Point(418, 320)
         Label2.Name = "Label2"
-        Label2.Size = New Size(143, 15)
+        Label2.Size = New Size(218, 21)
         Label2.TabIndex = 18
         Label2.Text = "Fecha fin(AAAA-MM-DD)"
         ' 
         ' btnVRefrescar
         ' 
-        btnVRefrescar.Location = New Point(75, 376)
+        btnVRefrescar.BackColor = Color.SteelBlue
+        btnVRefrescar.FlatStyle = FlatStyle.Popup
+        btnVRefrescar.Font = New Font("Elephant", 11.9999981F, FontStyle.Bold)
+        btnVRefrescar.Location = New Point(596, 381)
         btnVRefrescar.Name = "btnVRefrescar"
-        btnVRefrescar.Size = New Size(107, 45)
+        btnVRefrescar.Size = New Size(149, 45)
         btnVRefrescar.TabIndex = 19
         btnVRefrescar.Text = "Refrescar"
-        btnVRefrescar.UseVisualStyleBackColor = True
+        btnVRefrescar.UseVisualStyleBackColor = False
+        ' 
+        ' Panel1
+        ' 
+        Panel1.BackColor = Color.DarkSlateGray
+        Panel1.Controls.Add(Label9)
+        Panel1.Controls.Add(Label3)
+        Panel1.Font = New Font("Elephant", 8.999999F)
+        Panel1.Location = New Point(0, -1)
+        Panel1.Name = "Panel1"
+        Panel1.Size = New Size(802, 73)
+        Panel1.TabIndex = 41
+        ' 
+        ' Label9
+        ' 
+        Label9.AutoSize = True
+        Label9.Font = New Font("Stencil", 20.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label9.ForeColor = Color.Peru
+        Label9.Location = New Point(34, 21)
+        Label9.Name = "Label9"
+        Label9.Size = New Size(163, 32)
+        Label9.TabIndex = 36
+        Label9.Text = "Historial"
+        ' 
+        ' Label3
+        ' 
+        Label3.AutoSize = True
+        Label3.Font = New Font("Impact", 24F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label3.ForeColor = SystemColors.MenuHighlight
+        Label3.ImeMode = ImeMode.NoControl
+        Label3.Location = New Point(583, 21)
+        Label3.Name = "Label3"
+        Label3.Size = New Size(162, 39)
+        Label3.TabIndex = 27
+        Label3.Text = "AdminMAX"
         ' 
         ' HistorialVentas
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
+        BackColor = Color.Gray
         ClientSize = New Size(800, 450)
+        Controls.Add(Panel1)
         Controls.Add(btnVRefrescar)
         Controls.Add(Label2)
         Controls.Add(Label1)
@@ -116,6 +169,8 @@ Partial Class HistorialVentas
         Name = "HistorialVentas"
         Text = "HistorialVentas"
         CType(dgvMVentas, ComponentModel.ISupportInitialize).EndInit()
+        Panel1.ResumeLayout(False)
+        Panel1.PerformLayout()
         ResumeLayout(False)
         PerformLayout()
     End Sub
@@ -128,4 +183,7 @@ Partial Class HistorialVentas
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents btnVRefrescar As Button
+    Friend WithEvents Panel1 As Panel
+    Friend WithEvents Label9 As Label
+    Friend WithEvents Label3 As Label
 End Class

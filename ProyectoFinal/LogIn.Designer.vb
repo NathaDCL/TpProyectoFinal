@@ -22,114 +22,153 @@ Partial Class LogIn
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Label1 = New Label()
         txtLContra = New TextBox()
         txtLUsuario = New TextBox()
-        Label5 = New Label()
-        Label4 = New Label()
         btnLLogin = New Button()
         btnLRegistro = New Button()
         Label2 = New Label()
+        Panel1 = New Panel()
+        Label3 = New Label()
+        Label6 = New Label()
+        Label5 = New Label()
+        Label9 = New Label()
+        Panel1.SuspendLayout()
         SuspendLayout()
-        ' 
-        ' Label1
-        ' 
-        Label1.AutoSize = True
-        Label1.Font = New Font("Segoe UI", 18F)
-        Label1.ImeMode = ImeMode.NoControl
-        Label1.Location = New Point(602, 33)
-        Label1.Name = "Label1"
-        Label1.Size = New Size(135, 32)
-        Label1.TabIndex = 1
-        Label1.Text = "AdminMAX"
         ' 
         ' txtLContra
         ' 
-        txtLContra.Location = New Point(245, 179)
+        txtLContra.Font = New Font("Elephant", 8.999999F)
+        txtLContra.Location = New Point(263, 225)
         txtLContra.Name = "txtLContra"
-        txtLContra.Size = New Size(100, 23)
+        txtLContra.PasswordChar = "*"c
+        txtLContra.Size = New Size(134, 23)
         txtLContra.TabIndex = 13
         ' 
         ' txtLUsuario
         ' 
-        txtLUsuario.Location = New Point(272, 133)
+        txtLUsuario.Font = New Font("Elephant", 8.999999F)
+        txtLUsuario.Location = New Point(263, 182)
         txtLUsuario.Name = "txtLUsuario"
-        txtLUsuario.Size = New Size(100, 23)
+        txtLUsuario.Size = New Size(134, 23)
         txtLUsuario.TabIndex = 12
-        ' 
-        ' Label5
-        ' 
-        Label5.AutoSize = True
-        Label5.ImeMode = ImeMode.NoControl
-        Label5.Location = New Point(157, 182)
-        Label5.Name = "Label5"
-        Label5.Size = New Size(67, 15)
-        Label5.TabIndex = 11
-        Label5.Text = "Contraseña"
-        ' 
-        ' Label4
-        ' 
-        Label4.AutoSize = True
-        Label4.ImeMode = ImeMode.NoControl
-        Label4.Location = New Point(157, 136)
-        Label4.Name = "Label4"
-        Label4.Size = New Size(109, 15)
-        Label4.TabIndex = 10
-        Label4.Text = "Nombre de usuario"
         ' 
         ' btnLLogin
         ' 
-        btnLLogin.Location = New Point(177, 340)
+        btnLLogin.BackColor = Color.SteelBlue
+        btnLLogin.FlatStyle = FlatStyle.Popup
+        btnLLogin.Font = New Font("Elephant", 11.9999981F, FontStyle.Bold)
+        btnLLogin.Location = New Point(185, 340)
         btnLLogin.Name = "btnLLogin"
-        btnLLogin.Size = New Size(102, 36)
+        btnLLogin.Size = New Size(120, 36)
         btnLLogin.TabIndex = 14
         btnLLogin.Text = "Log In"
-        btnLLogin.UseVisualStyleBackColor = True
+        btnLLogin.UseVisualStyleBackColor = False
         ' 
         ' btnLRegistro
         ' 
-        btnLRegistro.Location = New Point(616, 340)
+        btnLRegistro.BackColor = Color.SteelBlue
+        btnLRegistro.FlatStyle = FlatStyle.Popup
+        btnLRegistro.Font = New Font("Elephant", 11.9999981F, FontStyle.Bold)
+        btnLRegistro.Location = New Point(583, 340)
         btnLRegistro.Name = "btnLRegistro"
-        btnLRegistro.Size = New Size(93, 36)
+        btnLRegistro.Size = New Size(111, 36)
         btnLRegistro.TabIndex = 15
         btnLRegistro.Text = "Registro"
-        btnLRegistro.UseVisualStyleBackColor = True
+        btnLRegistro.UseVisualStyleBackColor = False
         ' 
         ' Label2
         ' 
         Label2.AutoSize = True
-        Label2.Location = New Point(598, 311)
+        Label2.Font = New Font("Elephant", 11.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Label2.Location = New Point(544, 317)
         Label2.Name = "Label2"
-        Label2.Size = New Size(139, 15)
+        Label2.Size = New Size(201, 20)
         Label2.TabIndex = 16
         Label2.Text = "¿No te habías registrado?"
+        ' 
+        ' Panel1
+        ' 
+        Panel1.BackColor = Color.DarkSlateGray
+        Panel1.Controls.Add(Label9)
+        Panel1.Controls.Add(Label3)
+        Panel1.Font = New Font("Elephant", 8.999999F)
+        Panel1.Location = New Point(0, 0)
+        Panel1.Name = "Panel1"
+        Panel1.Size = New Size(802, 79)
+        Panel1.TabIndex = 34
+        ' 
+        ' Label3
+        ' 
+        Label3.AutoSize = True
+        Label3.Font = New Font("Impact", 24F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label3.ForeColor = SystemColors.MenuHighlight
+        Label3.ImeMode = ImeMode.NoControl
+        Label3.Location = New Point(583, 21)
+        Label3.Name = "Label3"
+        Label3.Size = New Size(162, 39)
+        Label3.TabIndex = 27
+        Label3.Text = "AdminMAX"
+        ' 
+        ' Label6
+        ' 
+        Label6.AutoSize = True
+        Label6.Font = New Font("Elephant", 11.9999981F)
+        Label6.Location = New Point(88, 229)
+        Label6.Name = "Label6"
+        Label6.Size = New Size(100, 21)
+        Label6.TabIndex = 36
+        Label6.Text = "Contraseña"
+        ' 
+        ' Label5
+        ' 
+        Label5.AutoSize = True
+        Label5.Font = New Font("Elephant", 11.9999981F)
+        Label5.Location = New Point(88, 181)
+        Label5.Name = "Label5"
+        Label5.Size = New Size(159, 21)
+        Label5.TabIndex = 35
+        Label5.Text = "Nombre de usuario"
+        ' 
+        ' Label9
+        ' 
+        Label9.AutoSize = True
+        Label9.Font = New Font("Stencil", 20.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label9.ForeColor = Color.Peru
+        Label9.Location = New Point(57, 21)
+        Label9.Name = "Label9"
+        Label9.Size = New Size(104, 32)
+        Label9.TabIndex = 36
+        Label9.Text = "Log In"
         ' 
         ' LogIn
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        BackColor = Color.DodgerBlue
+        BackColor = Color.Gray
         ClientSize = New Size(800, 450)
+        Controls.Add(Label6)
+        Controls.Add(Label5)
+        Controls.Add(Panel1)
         Controls.Add(Label2)
         Controls.Add(btnLRegistro)
         Controls.Add(btnLLogin)
         Controls.Add(txtLContra)
         Controls.Add(txtLUsuario)
-        Controls.Add(Label5)
-        Controls.Add(Label4)
-        Controls.Add(Label1)
         Name = "LogIn"
         Text = "LogIn"
+        Panel1.ResumeLayout(False)
+        Panel1.PerformLayout()
         ResumeLayout(False)
         PerformLayout()
     End Sub
-
-    Friend WithEvents Label1 As Label
     Friend WithEvents txtLContra As TextBox
     Friend WithEvents txtLUsuario As TextBox
-    Friend WithEvents Label5 As Label
-    Friend WithEvents Label4 As Label
     Friend WithEvents btnLLogin As Button
     Friend WithEvents btnLRegistro As Button
     Friend WithEvents Label2 As Label
+    Friend WithEvents Panel1 As Panel
+    Friend WithEvents Label3 As Label
+    Friend WithEvents Label6 As Label
+    Friend WithEvents Label5 As Label
+    Friend WithEvents Label9 As Label
 End Class
