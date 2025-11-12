@@ -37,8 +37,8 @@ Partial Class RegistroUsuario
         Label6 = New Label()
         Label7 = New Label()
         Panel1 = New Panel()
-        Label8 = New Label()
         Label9 = New Label()
+        Label8 = New Label()
         Panel1.SuspendLayout()
         SuspendLayout()
         ' 
@@ -193,16 +193,6 @@ Partial Class RegistroUsuario
         Panel1.Size = New Size(802, 79)
         Panel1.TabIndex = 33
         ' 
-        ' Label8
-        ' 
-        Label8.AutoSize = True
-        Label8.Font = New Font("Stencil", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label8.Location = New Point(425, 103)
-        Label8.Name = "Label8"
-        Label8.Size = New Size(363, 19)
-        Label8.TabIndex = 34
-        Label8.Text = "Antes de comenzar debes registrarte"
-        ' 
         ' Label9
         ' 
         Label9.AutoSize = True
@@ -213,6 +203,16 @@ Partial Class RegistroUsuario
         Label9.Size = New Size(152, 32)
         Label9.TabIndex = 35
         Label9.Text = "Registro"
+        ' 
+        ' Label8
+        ' 
+        Label8.AutoSize = True
+        Label8.Font = New Font("Stencil", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label8.Location = New Point(425, 103)
+        Label8.Name = "Label8"
+        Label8.Size = New Size(363, 19)
+        Label8.TabIndex = 34
+        Label8.Text = "Antes de comenzar debes registrarte"
         ' 
         ' RegistroUsuario
         ' 

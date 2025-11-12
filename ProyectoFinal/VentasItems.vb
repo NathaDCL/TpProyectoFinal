@@ -105,7 +105,7 @@ Public Class VentasItems
         Try
             con.Encendido()
 
-            Dim consulta As String = "SELECT COUNT(*) FROM productos WHERE ID = @IDProducto"
+            Dim consulta As String = "SELECT COUNT(*) FROM productos WHERE ID = @IDProducto AND Activo='si'"
             Dim comando As New MySqlCommand(consulta, con.ObtenerConexion())
             comando.Parameters.AddWithValue("@IDProducto", IdProducto)
 

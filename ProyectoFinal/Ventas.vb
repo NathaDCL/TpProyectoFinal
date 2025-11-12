@@ -127,7 +127,7 @@ Public Class Ventas
         Try
             con.Encendido()
 
-            Dim consulta As String = "SELECT COUNT(*) FROM clientes WHERE ID = @ID"
+            Dim consulta As String = "SELECT COUNT(*) FROM clientes WHERE ID = @ID AND Activo='si'"
             Dim comando As New MySqlCommand(consulta, con.ObtenerConexion())
             comando.Parameters.AddWithValue("@ID", Id)
 
