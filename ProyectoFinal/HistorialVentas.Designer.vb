@@ -33,6 +33,7 @@ Partial Class HistorialVentas
         Panel1 = New Panel()
         Label9 = New Label()
         Label3 = New Label()
+        btnVDetalle = New Button()
         CType(dgvMVentas, ComponentModel.ISupportInitialize).BeginInit()
         Panel1.SuspendLayout()
         SuspendLayout()
@@ -110,7 +111,7 @@ Partial Class HistorialVentas
         btnVRefrescar.BackColor = Color.SteelBlue
         btnVRefrescar.FlatStyle = FlatStyle.Popup
         btnVRefrescar.Font = New Font("Elephant", 11.9999981F, FontStyle.Bold)
-        btnVRefrescar.Location = New Point(596, 381)
+        btnVRefrescar.Location = New Point(634, 162)
         btnVRefrescar.Name = "btnVRefrescar"
         btnVRefrescar.Size = New Size(149, 45)
         btnVRefrescar.TabIndex = 19
@@ -151,12 +152,25 @@ Partial Class HistorialVentas
         Label3.TabIndex = 27
         Label3.Text = "AdminMAX"
         ' 
+        ' btnVDetalle
+        ' 
+        btnVDetalle.BackColor = Color.SteelBlue
+        btnVDetalle.FlatStyle = FlatStyle.Popup
+        btnVDetalle.Font = New Font("Elephant", 11.9999981F, FontStyle.Bold)
+        btnVDetalle.Location = New Point(596, 381)
+        btnVDetalle.Name = "btnVDetalle"
+        btnVDetalle.Size = New Size(149, 45)
+        btnVDetalle.TabIndex = 42
+        btnVDetalle.Text = "Ir a detalle"
+        btnVDetalle.UseVisualStyleBackColor = False
+        ' 
         ' HistorialVentas
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.Gray
         ClientSize = New Size(800, 450)
+        Controls.Add(btnVDetalle)
         Controls.Add(Panel1)
         Controls.Add(btnVRefrescar)
         Controls.Add(Label2)
@@ -186,4 +200,5 @@ Partial Class HistorialVentas
     Friend WithEvents Panel1 As Panel
     Friend WithEvents Label9 As Label
     Friend WithEvents Label3 As Label
+    Friend WithEvents btnVDetalle As Button
 End Class

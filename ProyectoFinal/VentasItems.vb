@@ -179,4 +179,27 @@ Public Class VentasItems
         End Try
         Return resultado
     End Function
+    Public Overrides Sub Carga(dgv As DataGridView)
+        Dim con As New Conexion
+        Try
+
+            con.Encendido()
+            Dim consulta As String = "SELECT * FROM ventasitems"
+            Dim adaptador As New MySqlDataAdapter(consulta, con.ObtenerConexion())
+            Dim tabla As New DataTable()
+            adaptador.Fill(tabla)
+
+            dgv.DataSource = tabla
+            dgv.Columns("ID").ReadOnly = True
+            dgv.Columns("IDVenta").ReadOnly = True
+            dgv.Columns("IDProducto").ReadOnly = True
+            dgv.Columns("PrecioUnitario").ReadOnly = True
+            dgv.Columns("Cantidad").ReadOnly = True
+            dgv.Columns("PrecioTotal").ReadOnly = True
+        Catch ex As Exception
+            MessageBox.Show("Error al conectar con la base de datos: " & ex.Message)
+        Finally
+            con.Apagado()
+        End Try
+    End Sub
 End Class

@@ -37,4 +37,9 @@
         txtHVFechauno.Text = ""
         txtHVFechados.Text = ""
     End Sub
+
+    Private Sub btnVDetalle_Click(sender As Object, e As EventArgs) Handles btnVDetalle.Click
+        Me.Hide()
+        Detalle.Show()
+    End Sub
 End Class

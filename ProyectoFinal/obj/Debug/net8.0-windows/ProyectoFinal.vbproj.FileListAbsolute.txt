@@ -78,3 +78,4 @@ C:\Users\Estudiante\Desktop\TpProyectoFinal\ProyectoFinal\obj\Debug\net8.0-windo
 C:\Users\Estudiante\Desktop\TpProyectoFinal\ProyectoFinal\obj\Debug\net8.0-windows\ProyectoFinal.SeccionVentas.resources
 C:\Users\Estudiante\Desktop\TpProyectoFinal\ProyectoFinal\obj\Debug\net8.0-windows\ProyectoFinal.AltaVentasItems.resources
 C:\Users\Estudiante\Desktop\TpProyectoFinal\ProyectoFinal\obj\Debug\net8.0-windows\ProyectoFinal.HistorialVentas.resources
+C:\Users\Estudiante\Desktop\TpProyectoFinal\ProyectoFinal\obj\Debug\net8.0-windows\ProyectoFinal.Detalle.resources
